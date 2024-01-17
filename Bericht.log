@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  17 JAN 2024 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  17 JAN 2024 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,10 +565,10 @@ Package rerunfilecheck Info: File `Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10133 strings out of 474587
- 163566 string characters out of 5745702
+ 10134 strings out of 474587
+ 163574 string characters out of 5745702
  1927558 words of memory out of 5000000
- 32179 multiletter control sequences out of 15000+600000
+ 32180 multiletter control sequences out of 15000+600000
  559280 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,263b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -576,7 +576,7 @@ Here is how much of TeX's memory you used:
 cmbx12.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb>
-Output written on Bericht.pdf (13 pages, 615742 bytes).
+Output written on Bericht.pdf (13 pages, 617201 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
