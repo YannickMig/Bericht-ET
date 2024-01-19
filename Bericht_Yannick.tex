@@ -6,7 +6,7 @@
 \usepackage{color, colortbl}
 \usepackage{pdfpages}
 \usepackage[left=2cm,right=2cm,top=1.5cm]{geometry}
-
+\usepackage{mathtools}
 \definecolor{Gray}{gray}{0.9}
 
 
@@ -51,7 +51,20 @@
 \newpage\null\thispagestyle{empty}\newpage
 Zusammenfassung (bis zu 250 Wörter)
 \newpage\null\thispagestyle{empty}\newpage
-7-9 Seiten Bericht
+7-9 Seiten Bericht \\\\
+Für die latente Variable "Gesamtzufriedenheit" haben wir folgende Formel aufgestellt:  \\
+Der "Score" berechnet sich aus:
+\begin{equation*}
+	 z_i = \frac{\sum\limits_{j=1}^{10}x_{ij}\cdot  y_{ij}}{\sum\limits_{j=1}^{10}x_{ij}} \hspace{0.8cm} , \text{für} \ 
+	 i=1,...,138\  \text{und} \ j=1,...,10
+\end{equation*} 
+Dabei ist $z_i$ der Score der i-ten Person. \\
+$x_{ij}$ ist die Wichtigkeit des j-ten Aspekts der i-ten Person und
+$y_{ij}$ ist die Bewertung der Umsetzung des j-ten Aspekts der i-ten Person.
+
+
+
+
 \newpage Literaturverzeichnis
 \newpage 
 \includepdf[pages=1-4] {C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Fragebogen Projekt/Final.pdf}
