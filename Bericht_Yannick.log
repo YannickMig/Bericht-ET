@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,8 +1153,15 @@ Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `Bericht_Yannick.out' has not changed.
-(rerunfilecheck)             Checksum: BC6E1F5A86CBFBC07EFFF6E14E9CEB3A;400.
+
+
+Package rerunfilecheck Warning: File `Bericht_Yannick.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Bericht_Yannick.out':
+(rerunfilecheck)             Before: 6B112AEF426E100D0BFD00D932E35859;403
+(rerunfilecheck)             After:  BC6E1F5A86CBFBC07EFFF6E14E9CEB3A;400.
  ) 
 Here is how much of TeX's memory you used:
  22479 strings out of 475247

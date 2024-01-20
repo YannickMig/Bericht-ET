@@ -1,5 +1,7 @@
 library("readxl")
 data <- read_excel("C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/DatensatzFragebogenLJJY.xlsx")
+data <- read_excel("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Fragebogen Projekt/DatensatzFragebogenLJJY.xlsx")
+data <- DatensatzFragebogenLJJY
 data$id <- c(seq(1, length(data$`[id]`)))
 
 
