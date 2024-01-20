@@ -11,7 +11,7 @@
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage[parfill]{parskip}
 \usepackage[left=2cm,right=2cm,top=1.5cm]{geometry}
-
+\usepackage{tikz}
 \definecolor{Gray}{gray}{0.9}
 \setlength\parindent{0pt}
 
@@ -159,8 +159,20 @@
 	Zuzüglich der beiden Scores wurden insgesamt 70 Variablen erfasst.
 	Die ordinalskalierten Daten, also aus den Fragen 5 bis 9, wurden bei der weiteren Auswertung quasi-intervallskaliert behandelt.
 	
+	\newpage
+	\begin{figure}
+		\centering \input{ScoreVN.tex}
+		\vspace{-2cm}
+		\caption{Streudiagramme zu Score Vorher und Nachher}
+	\end{figure}
 	
-	\newpage Literaturverzeichnis
+	\leavevmode
+	
+	
+	
+	
+	\newpage
+	Literaturverzeichnis
 	\newpage 
 	\includepdf[pages=1-4] {Fragebogen LJJY - 2023.pdf}
 	\newpage Appendix: Erklärung zu Anteilen an der Textproduktion
