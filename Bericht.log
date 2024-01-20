@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,100 +1067,100 @@ LaTeX Warning: No positions in optional float specifier.
 <Sankey.png, id=68, 868.24374pt x 510.90875pt>
 File: Sankey.png Graphic file (type png)
 <use Sankey.png>
-Package pdftex.def Info: Sankey.png  used on input line 192.
+Package pdftex.def Info: Sankey.png  used on input line 193.
 (pdftex.def)             Requested size: 564.35175pt x 332.08675pt.
 
-Overfull \hbox (80.65488pt too wide) in paragraph at lines 192--194
+Overfull \hbox (80.65488pt too wide) in paragraph at lines 193--195
  [][] 
  []
 
 (Lernorte.tex) [6] [7 <./Sankey.png>] [8]
-<Fragebogen LJJY - 2023.pdf, id=88, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=89, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 208.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 209.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 208.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 209.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
-<Fragebogen LJJY - 2023.pdf, id=91, page=1, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=92, page=1, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [9 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=118, page=2, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=119, page=2, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 
 [10 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=133, page=3, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=134, page=3, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [11 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=141, page=4, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=142, page=4, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-208.
+209.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 
 [12 <./Fragebogen LJJY - 2023.pdf>] [13] (Bericht.aux)
@@ -1172,8 +1172,8 @@ Package rerunfilecheck Info: File `Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: BC6E1F5A86CBFBC07EFFF6E14E9CEB3A;400.
  ) 
 Here is how much of TeX's memory you used:
- 22508 strings out of 475247
- 418802 string characters out of 5757791
+ 22509 strings out of 475247
+ 418809 string characters out of 5757791
  1959785 words of memory out of 5000000
  43583 multiletter control sequences out of 15000+600000
  606048 words of font info for 82 fonts, out of 8000000 for 9000
@@ -1185,9 +1185,9 @@ urier/fourier-ms.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/
 adobe/utopia/putb8a.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/adobe/utopia/putr8a.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/
 type1/adobe/utopia/putri8a.pfb>
-Output written on Bericht.pdf (19 pages, 717213 bytes).
+Output written on Bericht.pdf (19 pages, 717361 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
