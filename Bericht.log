@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  20 JAN 2024 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  20 JAN 2024 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,7 +377,136 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks30
 \c@AM@survey=\count296
 \AM@templatesizebox=\box58
-) (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fourier.sty
+Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+12.
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+))
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fourier-orns.st
+y
+Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+27.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 127
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
+LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
+LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
+LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
+LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
+LaTeX Font Info:    Redeclaring math accent \check on input line 266.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
+\symUfutm=\mathgroup5
+) (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -406,24 +535,48 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 ) (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 19.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 
+19.
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
+19.
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+19.
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 19.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -450,7 +603,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 19.
  (Bericht.out) (Bericht.out)
 \@outlinefile=\write3
 \openout3 = `Bericht.out'.
@@ -505,143 +658,212 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 [1
 
-{C:/Users/Jacqu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(Bericht.toc)
+{C:/Users/Jacqu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Jacq
+u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \newpage \null\thispagestyle{empty}\newpage
+                                                 [2] (Bericht.toc)
 \tf@toc=\write4
 \openout4 = `Bericht.toc'.
 
- [3] [4] [5] [6] [7] [8] [9] [10] [11]
-<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
-, id=74, 598.15468pt x 846.0408pt>
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf  used on input line 158.
-(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf  used on input line 158.
-(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
-<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
-, id=77, page=1, 598.15468pt x 846.0408pt>
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 1>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page1 used on input line 158.
-(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 1>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page1 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 1>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page1 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 1>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page1 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 1>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page1 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
- [12 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf>]
-<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
-, id=104, page=2, 598.15468pt x 846.0408pt>
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 2>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page2 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 2>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page2 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 2>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page2 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
- [13 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf>]
-<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
-, id=120, page=3, 598.15468pt x 846.0408pt>
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 3>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page3 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 3>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page3 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 3>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page3 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
- [14 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf>]
-<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
-, id=128, page=4, 598.15468pt x 846.0408pt>
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 4>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page4 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 4>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page4 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
-3.pdf Graphic file (type pdf)
-<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf, page 4>
-Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
-agebogen LJJY - 2023.pdf , page4 used on input line 158.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 
-[15 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
-.pdf>] [16] (Bericht.aux)
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \newpage
+             \null\thispagestyle{empty}\newpage [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \newpage\null\thispagestyle{empty}\newpage
+                                                [4]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \newpage
+             \null\thispagestyle{empty}\newpage [5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \newpage\null\thispagestyle{empty}\newpage
+                                                [6]
+Overfull \hbox (1.75195pt too wide) in paragraph at lines 75--77
+[]\T1/futs/m/n/10.95 Mit all diesen wichti-gen Fra-gen beschäftigt sich der fol
+-gende Bericht. An-hand einer Fragebogen-Auswertung
+ []
+
+[1
+
+]
+Overfull \hbox (5.03331pt too wide) in paragraph at lines 100--107
+[]\T1/futs/m/n/10.95 Um das Aus-füllen zu er-le-ichtern, er-strecken sich über 
+die zweite Seite drei in-haltlich eng gebun-dene Tabellen.
+ []
+
+
+Overfull \hbox (7.65398pt too wide) in paragraph at lines 100--107
+\T1/futs/m/n/10.95 In diesen wer-den hi-er-für vorab gewählte As-pekte auf Wich
+tigkeit und Um-set-zung geprüft. Die zehn gewählten
+ []
+
+[2] [3]
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line
+ 148.
+
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 148.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 148.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 148.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 148.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 148.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 148.
+
+[4] [5] [6]
+<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
+, id=69, 598.15468pt x 846.0408pt>
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf  used on input line 165.
+(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf  used on input line 165.
+(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
+<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
+, id=72, page=1, 598.15468pt x 846.0408pt>
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 1>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page1 used on input line 165.
+(pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 1>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page1 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 1>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page1 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 1>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page1 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 1>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page1 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+ [7 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf>]
+<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
+, id=100, page=2, 598.15468pt x 846.0408pt>
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 2>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page2 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 2>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page2 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 2>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page2 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+ [8 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf>]
+<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
+, id=115, page=3, 598.15468pt x 846.0408pt>
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 3>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page3 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 3>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page3 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 3>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page3 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+ [9 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf>]
+<C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023.pdf
+, id=123, page=4, 598.15468pt x 846.0408pt>
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 4>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page4 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 4>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page4 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf Graphic file (type pdf)
+<use C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 2023
+.pdf, page 4>
+Package pdftex.def Info: C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fr
+agebogen LJJY - 2023.pdf , page4 used on input line 165.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+ [10 <C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Fragebogen LJJY - 202
+3.pdf>] [11] (Bericht.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -650,26 +872,22 @@ Package rerunfilecheck Info: File `Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: BC6E1F5A86CBFBC07EFFF6E14E9CEB3A;400.
  ) 
 Here is how much of TeX's memory you used:
- 11406 strings out of 474587
- 183312 string characters out of 5745702
- 1935558 words of memory out of 5000000
- 33414 multiletter control sequences out of 15000+600000
- 563001 words of font info for 53 fonts, out of 8000000 for 9000
+ 12094 strings out of 474587
+ 192956 string characters out of 5745702
+ 1936558 words of memory out of 5000000
+ 34055 multiletter control sequences out of 15000+600000
+ 606048 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,435b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jacqu/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Jacqu/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jacqu/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jacqu/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
-Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Bericht.pdf (16 pages, 697341 bytes).
+ 75i,17n,79p,553b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/four
+ier-mex.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fo
+urier/fourier-ms.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/
+adobe/utopia/putb8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/adobe/utopia/putr8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/
+type1/adobe/utopia/putri8a.pfb>
+Output written on Bericht.pdf (17 pages, 638810 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 

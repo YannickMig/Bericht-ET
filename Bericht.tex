@@ -6,6 +6,10 @@
 \usepackage{color, colortbl}
 \usepackage{mathtools}
 \usepackage{pdfpages}
+\usepackage{fourier}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[parfill]{parskip}
 \usepackage[left=2cm,right=2cm,top=1.5cm]{geometry}
 
 \definecolor{Gray}{gray}{0.9}
@@ -13,6 +17,7 @@
 
 
 \begin{document}
+	\pagenumbering{gobble}
 \thispagestyle{empty}
 
 \begin{center}
@@ -54,6 +59,8 @@ Zusammenfassung (bis zu 250 Wörter)
 \newpage\null\thispagestyle{empty}\newpage
 
 \newpage
+\cleardoublepage% ensures that the page numbering will change on a recto page
+\pagenumbering{arabic}
 \section{Einleitung}
 \label{Einleitung}
 Mit dem Wegfall der Universitätsbibliothek (UB) im August 2023 stellt sich einigen Studenten die Frage: “Wo soll ich zukünftig lernen?”.
