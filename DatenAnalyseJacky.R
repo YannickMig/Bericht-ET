@@ -245,8 +245,6 @@ boxplot(ScoreNachher, ylim = c(0,5))
 dev.off()
 
 
-
-
 setwd("C:/Users/Jacqu/Documents/GitHub/Bericht-ET")
 
 ### Boxplot Frage 2 ###
@@ -261,5 +259,15 @@ dev.off()
 
 library(tikzDevice)
 tikz('Sankey.tex', width=6,height=3.5)
-boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), names = c("Vorher", "Nachher"), main = "Durschnittliche Lernzeit in Stunden pro Woche")
+sankey_diagramm
+dev.off()
+
+
+### Lernorte Vorher Nachher ###
+
+library(tikzDevice)
+tikz('Lernorte.tex', width=6,height=3.5)
+par(mfrow = c(1, 2))
+barplot(sum_before, las = 2, ylim = c(0,100))
+barplot(sum_now, las = 2, ylim = c(0,100))
 dev.off()
