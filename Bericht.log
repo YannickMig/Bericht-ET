@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  20 JAN 2024 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,11 +527,332 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen194
+\pgfutil@tempdimb=\dimen195
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box59
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen196
+\pgf@y=\dimen197
+\pgf@xa=\dimen198
+\pgf@ya=\dimen199
+\pgf@xb=\dimen256
+\pgf@yb=\dimen257
+\pgf@xc=\dimen258
+\pgf@yc=\dimen259
+\pgf@xd=\dimen260
+\pgf@yd=\dimen261
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count299
+\c@pgf@countb=\count300
+\c@pgf@countc=\count301
+\c@pgf@countd=\count302
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count303
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count306
+\pgfmath@box=\box60
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count307
+))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count308
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen281
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen285
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box64
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box65
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+)
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikz@lastmovetox=\dimen296
+\tikz@lastmovetoy=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
+)
+\tikz@expandcount=\count319
+
+(C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 (C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box70
 ) (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
@@ -581,17 +902,17 @@ LaTeX Font Info:    ... okay on input line 19.
 (C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen194
-\scratchbox=\box60
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen195
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count321
+\scratchdimen=\dimen300
+\scratchbox=\box71
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen301
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks45
 )
 (C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -605,8 +926,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 19.
  (Bericht.out) (Bericht.out)
-\@outlinefile=\write3
-\openout3 = `Bericht.out'.
+\@outlinefile=\write4
+\openout4 = `Bericht.out'.
 
 
 (C:\Users\yanni\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -666,8 +987,8 @@ een already used, duplicate ignored
                    \relax 
 l.55 \newpage \null\thispagestyle{empty}\newpage
                                                  [2] (Bericht.toc)
-\tf@toc=\write4
-\openout4 = `Bericht.toc'.
+\tf@toc=\write5
+\openout5 = `Bericht.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -733,95 +1054,94 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 148.
 
-[4] [5] [6]
-<Fragebogen LJJY - 2023.pdf, id=69, 598.15468pt x 846.0408pt>
+[4] [5] (ScoreVN.tex) [6] [7]
+<Fragebogen LJJY - 2023.pdf, id=77, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 165.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 175.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 165.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 175.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
-<Fragebogen LJJY - 2023.pdf, id=72, page=1, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=80, page=1, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-165.
+175.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-165.
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-165.
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-165.
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-165.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
- [7 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=100, page=2, 598.15468pt x 846.0408pt>
-File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 2>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-165.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 2>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-165.
-(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
-File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 2>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-165.
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [8 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=115, page=3, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=107, page=2, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 3>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 2>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 3>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 2>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 3>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 2>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [9 <./Fragebogen LJJY - 2023.pdf>]
-<Fragebogen LJJY - 2023.pdf, id=123, page=4, 598.15468pt x 846.0408pt>
+<Fragebogen LJJY - 2023.pdf, id=122, page=3, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 4>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 3>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 4>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 3>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
-<use Fragebogen LJJY - 2023.pdf, page 4>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-165.
+<use Fragebogen LJJY - 2023.pdf, page 3>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
+175.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [10 <./Fragebogen LJJY - 2023.pdf>]
-[11] (Bericht.aux)
+<Fragebogen LJJY - 2023.pdf, id=130, page=4, 598.15468pt x 846.0408pt>
+File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
+<use Fragebogen LJJY - 2023.pdf, page 4>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
+175.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
+<use Fragebogen LJJY - 2023.pdf, page 4>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
+175.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
+<use Fragebogen LJJY - 2023.pdf, page 4>
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
+175.
+(pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
+ [11 <./Fragebogen LJJY - 2023.pdf>] [12] (Bericht.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -830,22 +1150,22 @@ Package rerunfilecheck Info: File `Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: BC6E1F5A86CBFBC07EFFF6E14E9CEB3A;400.
  ) 
 Here is how much of TeX's memory you used:
- 12084 strings out of 475247
- 191637 string characters out of 5757791
- 1930785 words of memory out of 5000000
- 33385 multiletter control sequences out of 15000+600000
+ 22475 strings out of 475247
+ 418098 string characters out of 5757791
+ 1946785 words of memory out of 5000000
+ 43561 multiletter control sequences out of 15000+600000
  606048 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,553b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,89p,553b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/four
 ier-mex.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/fo
 urier/fourier-ms.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/
 adobe/utopia/putb8a.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/adobe/utopia/putr8a.pfb><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/
 type1/adobe/utopia/putri8a.pfb>
-Output written on Bericht.pdf (17 pages, 638610 bytes).
+Output written on Bericht.pdf (18 pages, 665860 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
