@@ -257,3 +257,9 @@ tikz('Frage2.tex', width=6,height=3.5)
 boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), names = c("Vorher", "Nachher"), main = "Durschnittliche Lernzeit in Stunden pro Woche")
 dev.off()
 
+### Sankey Diagramm ###
+
+library(tikzDevice)
+tikz('Sankey.tex', width=6,height=3.5)
+boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), names = c("Vorher", "Nachher"), main = "Durschnittliche Lernzeit in Stunden pro Woche")
+dev.off()
