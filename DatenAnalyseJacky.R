@@ -271,3 +271,4 @@ par(mfrow = c(1, 2))
 barplot(sum_before, las = 2, ylim = c(0,100))
 barplot(sum_now, las = 2, ylim = c(0,100))
 dev.off()
+
