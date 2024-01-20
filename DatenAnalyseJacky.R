@@ -244,18 +244,14 @@ dev.off()
 
 
 
-library(tikzDevice)
-tikz('test.tex', width=5.3,height=3.3)
-barplot(ploty$probability ~ ploty$k, 
-        xlab = "k = Anzahl Unfaelle", ylab="Wahrscheinlichkeiten", col=farben,
-        # main="Wahrscheinlichkeiten in Poissonmodell (4)",
-        las=1)
-segments(tmu,0,tmu,probs[3], col="darkgreen", lwd=3)
 
-dev.off()
-
-
-
+setwd("C:/Users/Jacqu/Documents/GitHub/Bericht-ET")
 
 ### Boxplot Frage 2 ###
+
+
+library(tikzDevice)
+tikz('Frage2.tex', width=7,height=3.5)
+boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), names = c("Vorher", "Nachher"), main = "Durschnittliche Lernzeit in Stunden pro Woche")
+dev.off()
 
