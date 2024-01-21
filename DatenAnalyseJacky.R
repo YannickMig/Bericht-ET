@@ -369,6 +369,7 @@ boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`F
 dev.off()
 
 ### Sankey Diagramm ###
+#setwd("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Bericht-ET")
 
 library(tikzDevice)
 tikz('Sankey.tex', width=6,height=3.5)
