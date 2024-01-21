@@ -3,6 +3,7 @@ data <- read_excel("C:/Users/Jacqu/Documents/Erhebungstechniken/Bericht/Datensat
 data <- read_excel("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Fragebogen Projekt/DatensatzFragebogenLJJY.xlsx")
 data <- DatensatzFragebogenLJJY
 data$id <- c(seq(1, length(data$`[id]`)))
+setwd("C:/Users/Jacqu/Documents/GitHub/Bericht-ET")
 
 
 # 3: Stichprobe und Datensatz
@@ -167,6 +168,8 @@ data_long$IDtarget=match(data_long$target, nodes$name)-1
 
 farben_blau_gruen = c(rgb(.5, .7, .4), rgb(.4, .6, .8), rgb(.8, .7, .4),
                       rgb(.8, .4, .4), rgb(.6, .4, .8) , rgb(.9, .6, .2) )
+library(RColorBrewer)
+farben_blau_gruen <- brewer.pal(6, "Set2") 
 farben <- paste0('d3.scaleOrdinal().range(["', paste(farben_blau_gruen, collapse = '","'), '"])')
 
 sankey_diagramm <- sankeyNetwork(Links = data_long, Nodes = nodes,
@@ -175,6 +178,22 @@ sankey_diagramm <- sankeyNetwork(Links = data_long, Nodes = nodes,
               sinksRight=FALSE, colourScale=farben, nodeWidth=45, fontSize=12.5)
 
 sankey_diagramm
+library(networkD3)
+library(plotly)
+library(webshot)
+library(htmlwidgets)
+htmlwidgets::saveWidget("dein_sankey_plot.html", last_plot())
+
+dein_sankey_plot <- sankey_diagramm  # Hier deine Sankey-Daten einfügen
+
+# Benutze onRender, um das Widget zu rendern, bevor es gespeichert wird
+htmlwidgets::onRender(
+  dein_sankey_plot,
+  'function(el, x) { Plotly.plot(el, x); }'
+)
+
+saveWidget(sankey_diagramm, "dein_sankey_plot.html")
+
 
 ## Barplots der Lernortnutzung (Vorher und Jetzt)
 par(mfrow = c(1, 2))
@@ -187,8 +206,102 @@ dev.off()
 table(as.numeric(data$`Ersatzbew. (10)`))
 
 
+### Tabellen ###
 
-
+for(i in 28:57){
+  print(table(data[,i]))
+}
+ 
+# Erreichbarkeit...28
+# 1  2  3  4  5 
+# 1  2  5 49 79 
+# Barrierefreiheit...29
+# 0  1  2  3  4  5 
+# 5 27 12 61 18 13 
+# Öffnungszeiten...30
+# 0  1  2  3  4  5 
+# 1  2  2 11 46 74 
+# Platzgarantie...31
+# 0  2  3  4  5 
+# 1  1  7 34 93 
+# Sicherheit...32
+# 0  1  2  3  4  5 
+# 2  2  4 47 40 41 
+# Ruhe...33
+# 1  2  3  4  5 
+# 3  2 22 55 54 
+# Stromversorgung...34
+# 1  2  3  4  5 
+# 4  2 14 33 83 
+# Gruppenräume...35
+# 0  1  2  3  4  5 
+# 1 13 11 34 47 30 
+# Pausebreiche...36
+# 1  2  3  4  5 
+# 20 34 47 27  8 
+# Computer...37
+# 1  2  3  4  5 
+# 53 36 28 11  8 
+# Erreichbarkeit...38
+# 0  1  2  3  4  5 
+# 1 64 59 10  1  1 
+# Barrierefreiheit...39
+# 0  1  2  3  4  5 
+# 16 22 58 32  7  1 
+# Öffnungszeiten...40
+# 0  1  2  3  4  5  6 
+# 1 55 48 23  6  2  1 
+# Platzgarantie...41
+# 0  1  2  3  4  5  6 
+# 1 21 40 35 26 11  2 
+# Sicherheit...42
+# 0  1  2  3  4  5 
+# 5 44 64 21  1  1 
+# Ruhe...43
+# 0  1  2  3  4  5 
+# 1 32 62 33  7  1 
+# Stromversorgung...44
+# 0  1  2  3  4  5  6 
+# 3 32 47 38  7  8  1 
+# Gruppenräume...45
+# 0  1  2  3  4  5  6 
+# 3 17 46 52 12  4  2 
+# Pausebreiche...46
+# 0  1  2  3  4  5  6 
+# 4 15 43 45 22  5  2 
+# Computer...47
+# 0  1  2  3  4  5  6 
+# 9 24 48 34 14  3  4 
+# Erreichbarkeit...48
+# 0  1  2  3  4  5  6 
+# 1 24 51 38 14  4  4 
+# Barrierefreiheit...49
+# 0  1  2  3  4  5  6 
+# 16  9 54 40  9  7  1 
+# Öffnungszeiten...50
+# 0  1  2  3  4  5  6 
+# 1 16 45 41 20 10  3 
+# Platzgarantie...51
+# 0  1  2  3  4  5  6 
+# 2 11 19 31 33 30 10 
+# Sicherheit...52
+# 0  1  2  3  4  5 
+# 5 35 61 29  5  1 
+# Ruhe...53
+# 0  1  2  3  4  5  6 
+# 1 15 46 47 16  7  4 
+# Stromversorgung...54
+# 0  1  2  3  4  5  6 
+# 2 21 42 37 17 14  3 
+# Gruppenräume...55
+# 0  1  2  3  4  5  6 
+# 4 12 38 52 17 10  3 
+# Pausenbereiche
+# 0  1  2  3  4  5 
+# 5 13 42 45 21 10 
+# Computer...57
+# 0  1  2  3  4  5  6 
+# 8 16 26 43 24 13  6 
 
 ### Score ###
 
@@ -265,10 +378,25 @@ dev.off()
 
 ### Lernorte Vorher Nachher ###
 
+coul1 <- brewer.pal(8, "Set2") 
 library(tikzDevice)
 tikz('Lernorte.tex', width=6,height=3.5)
 par(mfrow = c(1, 2))
-barplot(sum_before, las = 2, ylim = c(0,100))
-barplot(sum_now, las = 2, ylim = c(0,100))
+barplot(sum_before, las = 2, ylim = c(0,100), col = coul1)
+barplot(sum_now, las = 2, ylim = c(0,100), col = coul1)
 dev.off()
+
+
+### Wofür Lernorte nutzen ###
+
+farbPalette <- colorRampPalette(c("orange", "darkblue"))
+coul2 <- brewer.pal(6, "Set2") 
+
+library(tikzDevice)
+tikz('Nutzung.tex', width=6,height=3.5)
+barplot(colSums(na.omit(data[,21:26])), col = coul2)
+dev.off()
+
+
+
 

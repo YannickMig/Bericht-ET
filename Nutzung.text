@@ -1,0 +1,23 @@
+% Created by tikzDevice version 0.12.6 on 2024-01-21 08:32:26
+% !TEX encoding = UTF-8 Unicode
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor{fillColor}{RGB}{255,255,255}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (433.62,252.94);
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (433.62,252.94);
+\definecolor{drawColor}{RGB}{0,0,0}
+\definecolor{fillColor}{RGB}{190,190,190}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] ( 62.50, 62.61) rectangle (110.02,142.26);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (119.52, 62.61) rectangle (167.04,203.75);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (176.54, 62.61) rectangle (224.06,166.02);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (233.56, 62.61) rectangle (281.08,178.59);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (290.58, 62.61) rectangle (338.10,168.81);
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (347.60, 62.61) rectangle (395.12, 93.35);
+\end{scope}
+\end{tikzpicture}
