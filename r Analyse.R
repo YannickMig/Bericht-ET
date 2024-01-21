@@ -138,9 +138,10 @@ abline(h=0, lwd=2)
 
 #Scorediff in Abhängigkeit von Lernzeit Jetzt
 plot(data$ScoreDiff ~ data$`Frage 2 (Jetzt)`, ylim = c(-3,3), pch=1)
-abline
+abline(h=0, lwd=2)
+
 #Scorediff in Abhängigkeit der Geschlechter
-boxplot(data$ScoreDiff ~ data$Geschlecht, ylim = c(-3,3), pch=1)
+boxplot(data$ScoreDiff ~ data$Studium, ylim = c(-3,3), pch=1)
 #abline(h=0)
 
 #Scorediff nach Master/Bachelor
