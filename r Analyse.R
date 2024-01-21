@@ -253,7 +253,7 @@ Farben
 par(mfrow=c(1,2))
 plot(data$ScoreV, ylim = c(6,1), main="Score Vorher", ylab="Score Vorher", col=Farben,pch=16, xaxt="n", xlab="")
 abline(h=meanV, col="red", lwd=3)
-legend(5,5,
+legend(3.5,5,
        legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
        bty = "n", 
        lty = c(1, NA, NA),
@@ -263,7 +263,7 @@ legend(5,5,
        cex = 0.6)
 plot(data$ScoreN,ylim = c(6,1),main="Score Nachher", ylab="Score Nachher", col=Farben, pch=16, xaxt="n", xlab="")
 abline(h=meanN, col="red", lwd=3)
-legend(5,5,
+legend(3.5,5,
        legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
        bty = "n", 
        lty = c(1, NA, NA),
