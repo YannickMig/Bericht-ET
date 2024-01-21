@@ -133,8 +133,9 @@ abline(h=0)
 plot(data$ScoreDiff ~ data$Fakultät, ylim = c(-3,3), xaxt="n", pch=1)
 abline(h=0)
 #Scorediff in Abhängigkeit von Fahrzeit
-plot(data$ScoreDiff ~ data$Fahrzeit, ylim = c(-3,3), pch=1)
-abline(h=0)
+plot(data$ScoreDiff ~ data$Fahrzeit, ylim = c(-3,3), pch=1, col="darkblue", xlim = c(0,110))
+abline(h=0, lwd=2)
+
 #Scorediff in Abhängigkeit von Lernzeit Jetzt
 plot(data$ScoreDiff ~ data$`Frage 2 (Jetzt)`, ylim = c(-3,3), pch=1)
 abline
@@ -243,17 +244,55 @@ cor(data$`Bewertung (9)`, data$`SB(J)`,use="pairwise.complete.obs")
 
 ## Plots
 
-tikz("ScoreVN.tex", width=5.3, height = 3.3)
-indizes <- which(data$`SB(J)` == T)
+tikz("ScoreVN.tex", width=7, height = 3.5)
+setwd("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Bericht-ET")
+indizes <- which(data$`UB(V)` == T)
 Farben <- c(rep("blue", 138))
 Farben[indizes] <- "orange"
 Farben
 par(mfrow=c(1,2))
-plot(data$ScoreV, ylim = c(6,1), main="Score Vorher", ylab="Score Vorher", col=Farben,pch=16)
-abline(h=meanV, col="red", lwd=2)
-plot(data$ScoreN,ylim = c(6,1),main="Score Nachher", ylab="Score Nachher", col=Farben, pch=16)
-abline(h=meanN, col="red", lwd=2)
+plot(data$ScoreV, ylim = c(6,1), main="Score Vorher", ylab="Score Vorher", col=Farben,pch=16, xaxt="n", xlab="")
+abline(h=meanV, col="red", lwd=3)
+legend(5,5,
+       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
+       bty = "n", 
+       lty = c(1, NA, NA),
+       pch = c(NA, 16, 16),
+       col = c("red", "orange", "blue"),
+       lwd = 1,
+       cex = 0.6)
+plot(data$ScoreN,ylim = c(6,1),main="Score Nachher", ylab="Score Nachher", col=Farben, pch=16, xaxt="n", xlab="")
+abline(h=meanN, col="red", lwd=3)
+legend(5,5,
+       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
+       bty = "n", 
+       lty = c(1, NA, NA),
+       pch = c(NA, 16, 16),
+       col = c("red", "orange", "blue"),
+       lwd = 1,
+       cex = 0.6)
 par(mfrow=c(1,1))
 dev.off()
 getwd()
 
+plot(data$ScoreN~data$ScoreV)
+abline(0,1)
+abline(reg$coefficients)
+cor(data$ScoreN,data$ScoreV, use="pairwise.complete.obs")
+reg <- lm(data$ScoreN~data$ScoreV)
+summary(reg)
+
+mean(data$ScoreN, na.rm=T)
+mean(data$ScoreV, na.rm = T)
+median(data$ScoreN, na.rm=T)
+median(data$ScoreV, na.rm=T)
+var(data$ScoreN, na.rm = T)
+var(data$ScoreV, na.rm = T)
+sd(data$ScoreN, na.rm = T)
+sd(data$ScoreV, na.rm = T)
+min(data$ScoreN, na.rm=T)
+min(data$ScoreN, na.rm=T)
+
+summary(data$ScoreN, na.rm=T)
+summary(data$ScoreV, na.rm=T)
+length(data$ScoreV)
