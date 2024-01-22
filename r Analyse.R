@@ -133,15 +133,18 @@ abline(h=0)
 plot(data$ScoreDiff ~ data$Fakultät, ylim = c(-3,3), xaxt="n", pch=1)
 abline(h=0)
 #Scorediff in Abhängigkeit von Fahrzeit
-plot(data$ScoreDiff ~ data$Fahrzeit, ylim = c(-3,3), pch=1, col="darkblue", xlim = c(0,110))
+setwd("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Bericht-ET")
+tikz("ScoreDiff.tex", width=7, height = 3.5)
+plot(data$ScoreDiff ~ data$Fahrzeit, ylim = c(-3,3), pch=1, col="darkblue",
+     xlim = c(0,110), ylab="Score Differenz", xlab="Fahrzeit", main="Score Differenz in Abhängigkeit der Fahrzeit")
 abline(h=0, lwd=2)
+dev.off()
 
 #Scorediff in Abhängigkeit von Lernzeit Jetzt
 plot(data$ScoreDiff ~ data$`Frage 2 (Jetzt)`, ylim = c(-3,3), pch=1)
-abline(h=0, lwd=2)
-
+abline
 #Scorediff in Abhängigkeit der Geschlechter
-boxplot(data$ScoreDiff ~ data$Studium, ylim = c(-3,3), pch=1)
+boxplot(data$ScoreDiff ~ data$Geschlecht, ylim = c(-3,3), pch=1)
 #abline(h=0)
 
 #Scorediff nach Master/Bachelor
@@ -242,6 +245,11 @@ max(Mittelwerte)
 cor(data$ScoreN,data$`Bewertung (9)`,use="pairwise.complete.obs" )
 cor(data$`Bewertung (9)`,as.numeric(data$`Frage 2 (Jetzt)`),use="pairwise.complete.obs")
 cor(data$`Bewertung (9)`, data$`SB(J)`,use="pairwise.complete.obs")
+which(data$Fahrzeit==max(data$Fahrzeit, na.rm=T))
+#drop2 <- which(as.numeric(data$Fahrzeit)>40)
+#data <- data[-drop2,]
+
+cor(as.numeric(data$Fahrzeit),data$ScoreDiff,use="pairwise.complete.obs")
 
 ## Plots
 
@@ -254,24 +262,8 @@ Farben
 par(mfrow=c(1,2))
 plot(data$ScoreV, ylim = c(6,1), main="Score Vorher", ylab="Score Vorher", col=Farben,pch=16, xaxt="n", xlab="")
 abline(h=meanV, col="red", lwd=3)
-legend(3.5,5,
-       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
-       bty = "n", 
-       lty = c(1, NA, NA),
-       pch = c(NA, 16, 16),
-       col = c("red", "orange", "blue"),
-       lwd = 1,
-       cex = 0.6)
 plot(data$ScoreN,ylim = c(6,1),main="Score Nachher", ylab="Score Nachher", col=Farben, pch=16, xaxt="n", xlab="")
 abline(h=meanN, col="red", lwd=3)
-legend(3.5,5,
-       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
-       bty = "n", 
-       lty = c(1, NA, NA),
-       pch = c(NA, 16, 16),
-       col = c("red", "orange", "blue"),
-       lwd = 1,
-       cex = 0.6)
 par(mfrow=c(1,1))
 dev.off()
 getwd()
@@ -297,3 +289,10 @@ min(data$ScoreN, na.rm=T)
 summary(data$ScoreN, na.rm=T)
 summary(data$ScoreV, na.rm=T)
 length(data$ScoreV)
+data$Fahrzeit <- as.numeric(data$Fahrzeit)
+data$`Frage 2 (Jetzt)`<- as.numeric(data$`Frage 2 (Jetzt)`)
+data$`Frage 2 (Vorher)`<- as.numeric(data$`Frage 2 (Vorher)`)
+rel <- c(3,4,66,69,70,71,61)
+subset_cor <- data[,rel]
+cor(subset_cor, use="pairwise.complete.obs")
+

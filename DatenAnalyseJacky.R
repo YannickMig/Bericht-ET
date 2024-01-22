@@ -379,12 +379,16 @@ dev.off()
 
 ### Lernorte Vorher Nachher ###
 
+sum_before_pl <- data.frame(Names = factor(c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_before[1:8])
+sum_now_pl <- data.frame(Names = factor(c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_now[1:8])
+
 coul1 <- brewer.pal(8, "Set2") 
 library(tikzDevice)
 tikz('Lernorte.tex', width=6,height=3.5)
 par(mfrow = c(1, 2))
-barplot(sum_before, las = 2, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl")
-barplot(sum_now, las = 2, ylim = c(0,100), col = coul1)
+
+barplot(sum_before_pl$Werte ~ sum_before_pl$Names, las = 1, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung vorher", cex.names = 0.75, cex.lab = 0.75, cex.axis = 0.75)
+barplot(sum_now_pl$Werte ~ sum_now_pl$Names, las = 1, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung jetzt", cex.names = 0.75, cex.lab = 0.75, cex.axis = 0.75)
 dev.off()
 
 
@@ -397,6 +401,7 @@ library(tikzDevice)
 tikz('Nutzung.tex', width=6,height=3.5)
 barplot(colSums(na.omit(data[,21:26])), col = coul2)
 dev.off()
+
 
 
 
