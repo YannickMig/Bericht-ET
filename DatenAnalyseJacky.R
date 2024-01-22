@@ -467,7 +467,7 @@ for(i in 38:57){
 
 ### Mosaic-Plots ###
 
-tikz('Nutzung.tex', width=6,height=3.5)
+tikz('Mosaic.tex', width=7,height=3.7)
 par(mfrow = c(1, 2))
 mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
@@ -475,5 +475,5 @@ mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genut
 mosaicplot(~ factor(`SB(J)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
            data = data, ylab = "Ersatz ausreichend", xlab= "Sebrath-Bibliothek", col = c("darkorange", "darkblue"), main = " ")
-mtext("Ersatzbewertung in Relation zur Nutzung der Bibliotheken", side = 3, line = -2, outer = TRUE)
+mtext(expression(bold("Ersatzbewertung in Relation zur Nutzung der Bibliotheken")), side = 3, line = -2, outer = TRUE)
 dev.off()
