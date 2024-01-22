@@ -403,6 +403,60 @@ barplot(colSums(na.omit(data[,21:26])), col = coul2)
 dev.off()
 
 
+means <- numeric(19)
+for(i in 38:57){
+  means[i-37] <- round(mean(na.omit(as.numeric(data[,i][[1]]))),2)
+  print(colnames(data)[i])
+  print(round(mean(na.omit(as.numeric(data[,i][[1]]))),2))
+}
 
 
+# [1] "Erreichbarkeit...38"
+# [1] 1.64
+# [1] "Barrierefreiheit...39"
+# [1] 2.22
+# [1] "Öffnungszeiten...40"
+# [1] 1.93
+# [1] "Platzgarantie...41"
+# [1] 2.79
+# [1] "Sicherheit...42"
+# [1] 1.86
+# [1] "Ruhe...43"
+# [1] 2.13
+# [1] "Stromversorgung...44"
+# [1] 2.36
+# [1] "Gruppenräume...45"
+# [1] 2.59
+# [1] "Pausebreiche...46"
+# [1] 2.73
+# [1] "Computer...47"
+# [1] 2.5
+# [1] "Erreichbarkeit...48"
+# [1] 2.52
+# [1] "Barrierefreiheit...49"
+# [1] 2.62
+# [1] "Öffnungszeiten...50"
+# [1] 2.79
+# [1] "Platzgarantie...51"
+# [1] 3.61
+# [1] "Sicherheit...52"
+# [1] 2.05
+# [1] "Ruhe...53"
+# [1] 2.75
+# [1] "Stromversorgung...54"
+# [1] 2.78
+# [1] "Gruppenräume...55"
+# [1] 2.88
+# [1] "Pausenbereiche"
+# [1] 2.79
+# [1] "Computer...57"
+# [1] 3.08
 
+(diff <- means[1:10] - means[11:20])
+
+median <- numeric(20)
+for(i in 38:57){
+  median[i-37] <- median(na.omit(as.numeric(data[,i][[1]])))
+}
+
+(diff2 <- median[1:10] - median[11:20])
