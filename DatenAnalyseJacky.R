@@ -464,3 +464,12 @@ for(i in 38:57){
 (median(na.omit(as.numeric(na.omit(data$`Frage 2 (Vorher)`))))) ## 10
 (median(na.omit(as.numeric(na.omit(data$`Frage 2 (Jetzt)`))))) ## 7
 
+
+### Mosaic-Plots ###
+
+tikz('Nutzung.tex', width=6,height=3.5)
+mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Jaaa", "Nein")) +
+             factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
+           data = data, ylab = "Ersatz ausreichend", xlab= "Bibliothek benutzt",
+           main = "Ersatzbewertung", col = c("darkorange", "darkblue"))
+dev.off()

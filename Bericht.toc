@@ -3,5 +3,5 @@
 \contentsline {section}{\numberline {3}Stichprobe und Datensatz}{4}{section.3}%
 \contentsline {section}{\numberline {4}Ergebnisse}{6}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Lernortnutzung}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Wichtigkeit und Umsetzung der Aspekte}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.2}Wichtigkeit und Umsetzung der Aspekte}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{9}{subsection.4.3}%
