@@ -383,7 +383,7 @@ coul1 <- brewer.pal(8, "Set2")
 library(tikzDevice)
 tikz('Lernorte.tex', width=6,height=3.5)
 par(mfrow = c(1, 2))
-barplot(sum_before, las = 2, ylim = c(0,100), col = coul1)
+barplot(sum_before, las = 2, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl")
 barplot(sum_now, las = 2, ylim = c(0,100), col = coul1)
 dev.off()
 
