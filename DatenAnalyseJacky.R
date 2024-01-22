@@ -363,8 +363,8 @@ setwd("C:/Users/Jacqu/Documents/GitHub/Bericht-ET")
 ### Boxplot Frage 2 ###
 
 
-library(tikzDevice)
-tikz('Frage2.tex', width=6,height=3.5)
+#library(tikzDevice)
+#tikz('Frage2.tex', width=6,height=3.5)
 boxplot(as.numeric(na.omit(data$`Frage 2 (Vorher)`)), as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), names = c("Vorher", "Nachher"), main = "Durschnittliche Lernzeit in Stunden pro Woche")
 dev.off()
 

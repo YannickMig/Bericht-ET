@@ -296,3 +296,12 @@ rel <- c(3,4,66,69,70,71,61)
 subset_cor <- data[,rel]
 cor(subset_cor, use="pairwise.complete.obs")
 
+tikz("Frage2.tex", width=7, height = 3.5)
+
+boxplot(as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), as.numeric(na.omit(data$`Frage 2 (Vorher)`)),
+        
+        names = c("Jetzt", "Vorher"), main = "Vergleich Lernzeiten",range=1.5 ,
+        horizontal = T, outline=T, ylim=c(0,60))
+dev.off()
+?boxplot
+
