@@ -460,3 +460,7 @@ for(i in 38:57){
 }
 
 (diff2 <- median[1:10] - median[11:20])
+
+(median(na.omit(as.numeric(na.omit(data$`Frage 2 (Vorher)`))))) ## 10
+(median(na.omit(as.numeric(na.omit(data$`Frage 2 (Jetzt)`))))) ## 7
+
