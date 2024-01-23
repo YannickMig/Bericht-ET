@@ -475,5 +475,5 @@ mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genut
 mosaicplot(~ factor(`SB(J)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
            data = data, ylab = "Ersatz ausreichend", xlab= "Sebrath-Bibliothek", col = c("darkorange", "darkblue"), main = " ")
-mtext(expression(bold("Ersatzbewertung in Relation zur Nutzung der Bibliotheken")), side = 3, line = -2, outer = TRUE)
+mtext(expression(bold("Ersatzbewertung in Relation zur Nutzung der Bibliotheken")), side = 3, line = -2.5, outer = TRUE)
 dev.off()
