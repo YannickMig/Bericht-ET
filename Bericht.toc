@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {4.1}Lernortnutzung}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Wichtigkeit und Umsetzung der Aspekte}{8}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{9}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}%
-\contentsline {section}{\numberline {6}Reflexion}{12}{section.6}%
-\contentsline {section}{\numberline {7}Literaturverzeichnis}{13}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{14}{section.8}%
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}%
+\contentsline {section}{\numberline {6}Reflexion}{11}{section.6}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{12}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{13}{section.8}%

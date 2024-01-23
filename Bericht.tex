@@ -281,7 +281,7 @@ Im rechten Diagramm ist bei genauerer Betrachtung zu sehen, dass sich vor allem 
 Grob erscheint es auch so, als würden die Punkte im Streudiagramm SJ mehr streuen, als die im "Score-Vorher".
 
 {\centering \input{ScoreVN.tex}
-\vspace{-3cm}
+\vspace{-2cm}
 \caption{Streudiagramme zu Score Vorher und Jetzt}}
 
 \vspace{1cm}
@@ -303,6 +303,22 @@ Um diese Aussage anhand der Stichprobe zu bestätigen vergleichen wir anhand fol
 Das arithmetische Mittel $\bar{x}$ ist beim Score Vorher kleiner.
 Auch die Streuung um $\bar{x}$ ist wie bereits angenommen beim Score-Vorher kleiner. Auch die 25\%- und 75\%-Quantile erhalten bei Score-Jetzt einen höheren Wert eben so wie der Median $\tilde{x}$.
 Der Interquantilabstand ist bei beiden Variablen fast identisch.
+\begin{figure}[h]
+	\raggedright
+	Zuletzt möchten wir die Differenz: SV-SJ betrachten. Ein negativer Wert stellt also eine zeitliche Verschlechterung des Scores da.
+	Diese wird hier in Abhängigkeit zur durchschnittlichen Fahrzeit der Studierenden visualisiert.
+	{\centering \input{ScoreDiff.tex}
+		\vspace{-2cm}
+		\caption{Streudiagramme zu Score Vorher und Jetzt}}
+		\raggedright
+		
+		Die meisten Datenpunkte befinden sich im negativen Bereich. Mit steigender Fahrzeit nähert sich die Score Differenz in den Daten der Null an. 
+		Ein linearer Zusammenhang ist jedoch zumindest anhand der Korrelation nicht zu erkennen, da diese mit 0.147 nahe an 0 liegt. 
+		Auch die weiteren Variablen zeigen keine erwähnenswerten Korrelationen zur Score-Differenz auf. 
+		
+		
+\end{figure}
+
 
 
 \leavevmode

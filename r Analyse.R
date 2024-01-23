@@ -87,6 +87,8 @@ ScoreNachher[which(ScoreNachher < 1)] <- NA
 ScoreVorher[which(ScoreVorher < 1)] <- NA
 ScoreVorher
 Scorediff <- ScoreVorher - ScoreNachher
+data$Scorediff <- ScoreVorher - ScoreNachher
+
 data$ScoreV <- ScoreVorher
 data$ScoreN <- ScoreNachher
 data$ScoreDiff <- Scorediff
@@ -253,7 +255,7 @@ cor(as.numeric(data$Fahrzeit),data$ScoreDiff,use="pairwise.complete.obs")
 
 ## Plots
 
-tikz("ScoreVN.tex", width=7, height = 3.5)
+tikz("Score2VN.tex", width=7, height = 3.5)
 setwd("C:/Users/yanni/Desktop/Studium/3. Semester/Erhebungstechniken/Bericht-ET")
 indizes <- which(data$`UB(V)` == T)
 Farben <- c(rep("blue", 138))
@@ -262,8 +264,24 @@ Farben
 par(mfrow=c(1,2))
 plot(data$ScoreV, ylim = c(6,1), main="Score Vorher", ylab="Score Vorher", col=Farben,pch=16, xaxt="n", xlab="")
 abline(h=meanV, col="red", lwd=3)
-plot(data$ScoreN,ylim = c(6,1),main="Score Nachher", ylab="Score Nachher", col=Farben, pch=16, xaxt="n", xlab="")
+legend(3.5,4.5,
+       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
+       bty = "n", 
+       lty = c(1, NA, NA),
+       pch = c(NA, 16, 16),
+       col = c("red", "orange", "blue"),
+       lwd = 1,
+       cex = 0.6)
+plot(data$ScoreN,ylim = c(6,1),main="Score Jetzt", ylab="Score Jetzt", col=Farben, pch=16, xaxt="n", xlab="")
 abline(h=meanN, col="red", lwd=3)
+legend(3.5,4.5,
+       legend = c("arith. Mittel", "UB genutzt", "UB nicht genutzt"),
+       bty = "n", 
+       lty = c(1, NA, NA),
+       pch = c(NA, 16, 16),
+       col = c("red", "orange", "blue"),
+       lwd = 1,
+       cex = 0.6)
 par(mfrow=c(1,1))
 dev.off()
 getwd()
@@ -295,6 +313,8 @@ data$`Frage 2 (Vorher)`<- as.numeric(data$`Frage 2 (Vorher)`)
 rel <- c(3,4,66,69,70,71,61)
 subset_cor <- data[,rel]
 cor(subset_cor, use="pairwise.complete.obs")
+cor(subset_cor, use="pairwise.complete.obs", method = "spearman")
+
 
 tikz("Frage2.tex", width=7, height = 3.5)
 
@@ -304,4 +324,14 @@ boxplot(as.numeric(na.omit(data$`Frage 2 (Jetzt)`)), as.numeric(na.omit(data$`Fr
         horizontal = T, outline=T, ylim=c(0,60))
 dev.off()
 ?boxplot
+
+max(as.numeric(data$`Frage 2 (Jetzt)`), na.rm=T)
+max(as.numeric(data$`Frage 2 (Vorher)`), na.rm=T)
+
+median(as.numeric(data$`Frage 2 (Jetzt)`), na.rm=T)
+median(as.numeric(data$`Frage 2 (Vorher)`), na.rm=T)
+summary(as.numeric(data$`Frage 2 (Vorher)`))
+summary(as.numeric(data$`Frage 2 (Jetzt)`))
+str(data$Score)
+
 
