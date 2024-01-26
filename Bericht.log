@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  26 JAN 2024 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  26 JAN 2024 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,48 +856,48 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 ) (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 18.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-19.
+18.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-19.
+18.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-19.
+18.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -924,7 +924,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 18.
  (Bericht.out) (Bericht.out)
 \@outlinefile=\write4
 \openout4 = `Bericht.out'.
@@ -985,7 +985,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \newpage \null\thispagestyle{empty}\newpage
+l.54 \newpage \null\thispagestyle{empty}\newpage
                                                  [2] (Bericht.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  5.
@@ -1014,27 +1014,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \newpage
+l.56 \newpage
              \null\thispagestyle{empty}\newpage [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 \newpage\null\thispagestyle{empty}\newpage
+l.56 \newpage\null\thispagestyle{empty}\newpage
                                                 [4]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \newpage
+l.58 \newpage
              \null\thispagestyle{empty}\newpage [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \newpage\null\thispagestyle{empty}\newpage
+l.58 \newpage\null\thispagestyle{empty}\newpage
                                                 [6]
-Overfull \hbox (1.75195pt too wide) in paragraph at lines 75--77
+Overfull \hbox (1.75195pt too wide) in paragraph at lines 74--76
 []\T1/futs/m/n/10.95 Mit all diesen wichti-gen Fra-gen beschäftigt sich der fol
 -gende Bericht. An-hand einer Fragebogen-Auswertung
  []
@@ -1042,50 +1042,50 @@ Overfull \hbox (1.75195pt too wide) in paragraph at lines 75--77
 [1
 
 ]
-Overfull \hbox (5.03331pt too wide) in paragraph at lines 100--107
+Overfull \hbox (5.03331pt too wide) in paragraph at lines 99--106
 []\T1/futs/m/n/10.95 Um das Aus-füllen zu er-le-ichtern, er-strecken sich über 
 die zweite Seite drei in-haltlich eng gebun-dene Tabellen.
  []
 
 
-Overfull \hbox (7.65398pt too wide) in paragraph at lines 100--107
+Overfull \hbox (7.65398pt too wide) in paragraph at lines 99--106
 \T1/futs/m/n/10.95 In diesen wer-den hi-er-für vorab gewählte As-pekte auf Wich
 tigkeit und Um-set-zung geprüft. Die zehn gewählten
  []
 
 [2] [3]
-Overfull \hbox (20.03845pt too wide) in paragraph at lines 132--136
+Overfull \hbox (20.03845pt too wide) in paragraph at lines 131--135
 \T1/futs/m/n/10.95 fizierende Per-so-nen unge-fähr gle-ich häu-fig er-hoben wur
 -den. Zusät-zlich gab es noch zwei divers-identifizierende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--150
+Underfull \hbox (badness 10000) in paragraph at lines 139--149
 
  []
 
 [4] [5] (Lernorte.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 181--185
+Underfull \hbox (badness 10000) in paragraph at lines 180--184
 
  []
 
 (Frage2.tex)
-Overfull \hbox (7.32576pt too wide) in paragraph at lines 202--209
+Overfull \hbox (7.32576pt too wide) in paragraph at lines 201--208
     []
  []
 
 (Mosaic.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 218--222
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 217--221
 [] 
  []
 
@@ -1096,30 +1096,30 @@ rsion <1.7>, but at most version <1.5> allowed
 <Tabellen.pdf, id=121, 845.1575pt x 597.23125pt>
 File: Tabellen.pdf Graphic file (type pdf)
 <use Tabellen.pdf>
-Package pdftex.def Info: Tabellen.pdf  used on input line 234.
+Package pdftex.def Info: Tabellen.pdf  used on input line 233.
 (pdftex.def)             Requested size: 609.26208pt x -21.43208pt.
 
-Overfull \hbox (71.80157pt too wide) in paragraph at lines 233--235
+Overfull \hbox (71.80157pt too wide) in paragraph at lines 232--234
 []|  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--241
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
 
  []
 
 [8 <./Tabellen.pdf>] (ScoreVN.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--284
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--283
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
+Underfull \hbox (badness 10000) in paragraph at lines 285--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
+Underfull \hbox (badness 10000) in paragraph at lines 285--292
 
  []
 
@@ -1127,7 +1127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--293
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] (ScoreDiff.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--317
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--316
  [][] 
  []
 
@@ -1135,88 +1135,88 @@ Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--317
 <Fragebogen LJJY - 2023.pdf, id=168, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 391.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf>
-Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 391.
+Package pdftex.def Info: Fragebogen LJJY - 2023.pdf  used on input line 390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 <Fragebogen LJJY - 2023.pdf, id=171, page=1, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03874pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 1>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page1 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [15 <./Fragebogen LJJY - 2023.pdf>]
 <Fragebogen LJJY - 2023.pdf, id=198, page=2, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 2>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page2 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [16 <./Fragebogen LJJY - 2023.pdf>]
 <Fragebogen LJJY - 2023.pdf, id=213, page=3, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 3>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page3 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [17 <./Fragebogen LJJY - 2023.pdf>]
 <Fragebogen LJJY - 2023.pdf, id=221, page=4, 598.15468pt x 846.0408pt>
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
 File: Fragebogen LJJY - 2023.pdf Graphic file (type pdf)
 <use Fragebogen LJJY - 2023.pdf, page 4>
 Package pdftex.def Info: Fragebogen LJJY - 2023.pdf , page4 used on input line 
-391.
+390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08344pt.
  [18 <./Fragebogen LJJY - 2023.pdf>] [19] (Bericht.aux)
  ***********
