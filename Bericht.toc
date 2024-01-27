@@ -1,3 +1,4 @@
+\babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Erhebungsinstrument}{2}{section.2}%
 \contentsline {section}{\numberline {3}Stichprobe und Datensatz}{4}{section.3}%
@@ -9,3 +10,5 @@
 \contentsline {section}{\numberline {6}Reflexion}{12}{section.6}%
 \contentsline {section}{\numberline {7}Literaturverzeichnis}{13}{section.7}%
 \contentsline {section}{\numberline {8}Appendix}{14}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Fragebogen}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Anteile}{18}{subsection.8.2}%

@@ -1,5 +1,6 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
 \usepackage{booktabs}
 \usepackage{rotating}
 \usepackage{hyperref}
@@ -11,6 +12,9 @@
 \usepackage[parfill]{parskip}
 \usepackage[left=2cm,right=2cm,top=1.5cm]{geometry}
 \usepackage{tikz}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{Literaturverzeichnis.bib}
+\bibliography{Literaturverzeichnis}
 \definecolor{Gray}{gray}{0.9}
 \setlength\parindent{0pt}
 
@@ -54,7 +58,14 @@
 \newpage \null\thispagestyle{empty}\newpage
 \tableofcontents
 \newpage\null\thispagestyle{empty}\newpage
-Zusammenfassung (bis zu 250 Wörter)
+\section*{Zusammenfassung}
+In dieser Fragebogenstudie wird untersucht, wie sich die Lernortsituation seit der Schließung der Zentralbibliothek der Technischen Universität Dortmund verändert hat und wie diese Entwicklung bewertet wird.\\
+Der Fragebogen besteht aus 15 Items, wobei geschlossene, halboffene und offene Antwortformate genutzt werden sowie eine bipolare und unipolare Ratingskala. \\
+Die Grundgesamtheit besteht aus Personen, die seit dem Sommersemester 2023 studieren. Die Stichprobe umfasst 138 Personen, die im Wintersemester 2023/2024 an verschiedenen Lernorten befragt wurden.
+Es fällt auf, dass sowohl weibliche als auch männliche Personen in etwa gleicher Anzahl erhoben wurden. Bei den Fakultäten wurden vor allem Personen aus den Fakultät Statistik sowie der Fakultät Erziehungswissenschaften, Psychologie und Bildungsforschung erhoben.
+Die gewonnenen Daten zeigen, dass die Aspekte 'Erreichbarkeit',  'Platzgarantie' und 'Öffnungszeiten' für Studierende von großer Relevanz sind und auch die stärkste Verschlechterung aufweisen. Zusätzlich wurde ein Score entwickelt, der die Gesamtzufriedenheit widerspiegeln soll. Diese latente Variable wies ebenfalls eine negative Tendenz auf.\\
+Insgesamt lässt sich aufgrund der Ergebnisse schlussfolgern, dass sich die Lernsituation verschlechtert hat.
+
 \newpage\null\thispagestyle{empty}\newpage
 
 \newpage
@@ -63,7 +74,7 @@ Zusammenfassung (bis zu 250 Wörter)
 \section{Einleitung}
 \label{Einleitung}
 Mit dem Wegfall der Universitätsbibliothek (UB) im August 2023 stellt sich einigen Studenten die Frage: “Wo soll ich zukünftig lernen?”.
-Abgesehen von den vielen Plätzen zum Lernen, ist die UB für viele von individueller Wichtigkeit.
+Abgesehen von den vielen Plätzen zum Lernen, ist die UB für viele von individueller Wichtigkeit. \cite{.27.01.2024}
 Durch den idealen Standort und den langen Öffnungszeiten, ist die Schließung der UB für viele Studierende ein großer Verlust.
 Die Technische Universität Dortmund ist bemüht Ersatz zu schaffen, eröffnet die Sebrath-Bibliothek und erweitert einige Lernorte wie den Co-Learning Space.
 Unter anderem wurden auch in der Galerie und im Mensagebäude neue Lernplätze geschaffen.
@@ -174,7 +185,7 @@ Die Fragebögen, bei denen daher eine 0 erfasst wurde, wurden aussortiert.
 Relevant für die Untersuchung der allgemeinen Lernortsituation ist zunächst, wo sich die Studierenden aufhalten. Welche Lernorte am beliebtesten sind und wie sich die Nutzung nach der Schließung verändert hat, wird in Abbildung 1 verdeutlicht.
 
  \input{Lernorte.tex}
- \caption{Vergleich Lernortnutzung}
+ \caption{Vergleich Lerznortnutzung }
 \leavevmode
 
 Deutlich erkennbar ist, dass die Universitätsbibliothek (UB) im vergangen Semester am häufigsten genutzt wurde und zwar von 90 der 138 Befragten.\\
@@ -216,9 +227,10 @@ Hauptsächlich wurden dabei angegeben, dass die Lernorte für die Bearbeitung vo
 	Erkennbar ist, dass die mediane Lernzeit sich von 10 auf 7 Stunden pro Woche verringert hat. Ebenso hat die Streuung der Angaben abgenommen.\\
 	In Figur 3 wird mithilfe von Mosaikplots die Relation der Nutzung der Universitätsbibliothek bzw. die der Sebrath-Bibliothek mit der Ersatzbewertung dargestellt.
 	\vspace{0.5cm}
-	{\centering \input{Mosaic.tex}}
+	 \begin{center}
+	{\centering \input{Mosaic.tex}} \end{center}
 	\vspace{-1.5cm}
-	\caption{Mosaikplot Ersatzbewertung}
+	\caption{Mosaikplot: Ersatzbewertung}
 \end{figure}
 
 \leavevmode
@@ -378,18 +390,35 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 
 
 
-
-
 \newpage
 \newpage
 \section{Literaturverzeichnis}
+\printbibliography
 \newpage
 \section{Appendix}
- Literaturverzeichnis
-\newpage 
-\includepdf[pages=1-4] {Fragebogen LJJY - 2023.pdf}
-\newpage Appendix: Erklärung zu Anteilen an der Textproduktion!!!!!!!!!!!!!!1
-
+\subsection{Fragebogen}
+\begin{figure}[h]
+\includepdf[pages=1, offset=0cm -3cm] {Final2.pdf}
+\end{figure}
+\newpage
+\includepdf[pages=2-4] {Final2.pdf}
+\newpage
+\subsection{Anteile}
+\begin{table}[h]
+	\begin{tabular}{l|l}
+		Abschnitt                                          & Verantwortliche Person \\ \hline
+		Zusammenfassung                                    & Jacqueline Link        \\
+		Einleitung                                         & Yannick Miguel         \\
+		Erhebungsinstrument                                & Yannick Miguel         \\
+		Stichprobe und Datensatz                           &
+		Jacqueline Link        \\
+		Ergebnisse - Lernortnutzung                        & Jacqueline Link        \\
+		Ergebnisse - Wichtigkeit und Umsetzung der Aspekte & Jacqueline Link        \\
+		Ergebnisse - Gesamtzufriedeneheit und Score        & Yannick Miguel         \\
+		Diskussion                                         & Yannick Miguel         \\
+		Reflexion                                          & Jacqueline Link       
+	\end{tabular}
+\end{table}
 \end{document}
 
 
