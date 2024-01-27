@@ -221,6 +221,7 @@ barplot(as.numeric(Grund[1,])~Grund[2,], xlab="Grund",
 
 #Boxplot Ersatzbewertung-Fahrzeit
 boxplot(as.numeric(data$Fahrzeit)~as.numeric(data$`Ersatzbew. (10)`),  na.rm=T)
+table(data$`Ersatzbew. (10)`)
 
 #Erhebungsorte
 barplot(table(data$Erhebungsort))
