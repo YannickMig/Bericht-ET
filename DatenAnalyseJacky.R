@@ -379,16 +379,37 @@ dev.off()
 
 ### Lernorte Vorher Nachher ###
 
+library(RColorBrewer)
 sum_before_pl <- data.frame(Names = factor(c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_before[1:8])
 sum_now_pl <- data.frame(Names = factor(c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_now[1:8])
 
-coul1 <- brewer.pal(8, "Set2") 
+coul1 <- c("#1abc9c", "#e67e22", "#2c3e50", "#95a5a6", "#f1c40f", "#8e44ad", "#d35400", "#27ae60")
+coul2 <- c("#ff5733", "#e67e22", "#2c3e50", "#95a5a6", "#f1c40f", "#8e44ad", "#d35400", "#27ae60")
+
 library(tikzDevice)
 tikz('Lernorte.tex', width=6,height=3.5)
 par(mfrow = c(1, 2))
-
-barplot(sum_before_pl$Werte ~ sum_before_pl$Names, las = 1, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung vorher", cex.names = 0.75, cex.lab = 0.75, cex.axis = 0.75)
-barplot(sum_now_pl$Werte ~ sum_now_pl$Names, las = 1, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung jetzt", cex.names = 0.75, cex.lab = 0.75, cex.axis = 0.75)
+par(mar = c(5, 4, 4, 2) + 1)
+bp1 <- barplot(sum_before_pl$Werte ~ sum_before_pl$Names, las = 1, ylim = c(0,100), col = coul1, xaxt = "n", xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung vorher", cex.names = 0.75, cex.lab = 1, cex.axis = 1)
+text(
+  x = bp,
+  y = par("usr")[3] - 5,
+  labels = sum_before_pl$Names,
+  xpd = NA,
+  srt = 35,
+  adj = 0.98,
+  cex = 0.87
+)
+bp2 <- barplot(sum_now_pl$Werte ~ sum_now_pl$Names, las = 1, ylim = c(0,100), col = coul2, xaxt = "n", xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung jetzt", cex.names = 0.75, cex.lab = 1, cex.axis = 1)
+text(
+  x = bp,
+  y = par("usr")[3] -5,
+  labels = sum_now_pl$Names,
+  xpd = NA,
+  srt = 35,
+  adj = 0.98,
+  cex = 0.87
+)
 dev.off()
 
 
@@ -467,13 +488,14 @@ for(i in 38:57){
 
 ### Mosaic-Plots ###
 
-tikz('Mosaic.tex', width=7,height=3.7)
+tikz('Mosaic.tex', width=4.3,height=3.8)
 par(mfrow = c(1, 2))
 mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
            data = data, ylab = "Ersatz ausreichend", xlab= "Universitäts-Bibiliothek", col = c("darkorange", "darkblue"), main = " ")
 mosaicplot(~ factor(`SB(J)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
-           data = data, ylab = "Ersatz ausreichend", xlab= "Sebrath-Bibliothek", col = c("darkorange", "darkblue"), main = " ")
-mtext(expression(bold("Ersatzbewertung in Relation zur Nutzung der Bibliotheken")), side = 3, line = -2.5, outer = TRUE)
+           data = data, ylab = "Ersatz ausreichend", xlab= "Sebrath-Bibliothek",
+           col = c("darkorange", "darkblue"), main = "Bewertung im Kontext der Sebrath Bibliothek")
+mtext(expression(bold("Bewertung im Kontext der Sebrath Bibliothek")), side = 3, line = -2.5, outer = TRUE)
 dev.off()
