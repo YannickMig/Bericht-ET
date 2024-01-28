@@ -18,6 +18,8 @@
 \bibliography{Literaturverzeichnis}
 \definecolor{Gray}{gray}{0.9}
 \setlength\parindent{0pt}
+\usepackage{ragged2e}
+\justifying
 
 
 \begin{document}
@@ -162,7 +164,6 @@ Für die Untersuchung der allgemeinen Lernortsituation ist es zunächst relevant
 
  \input{Lernorte.tex}
  \caption{Vergleich Lerznortnutzung }
-\leavevmode
 
 Es ist deutlich erkennbar, dass die Universitätsbibliothek (UB) im vergangenen Semester am häufigsten genutzt wurde - und zwar von 104 der 138 Befragten. Auch die Nutzung der Räumlichkeiten der eigenen Fakultät ist deutlich ausgeprägt. Das Co-Learning Space wird von 24  Befragten genutzt, während nur 16 angaben, die Sebrath Bibliothek zu nutzen. 
 Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.\\
@@ -183,7 +184,7 @@ Aus den Daten wird ebenfalls ersichtlich, wofür die Lernorte gebraucht werden:
 Hauptsächlich wurden dabei angegeben, dass die Lernorte für die Bearbeitung von Abgaben genutzt werden. Am wenigsten werden die Lernorte für Abschlussarbeiten verwendet. Im Feld "Sonstiges" wurde noch angegeben, dass sie auch für Berufstätigkeiten genutzt werden.
 
 
-\leavevmode
+
 
 \begin{figure}[htp]
 	Unsere Daten geben auch eine ungefähre Vorstellung davon, wie viel Zeit die Befragten in den Lernorten der TU verbringen.
@@ -194,7 +195,7 @@ Hauptsächlich wurden dabei angegeben, dass die Lernorte für die Bearbeitung vo
 	\vspace{0cm}
 	\caption{Boxplots}
 	\vspace{0.7cm}
-	\raggedright
+	%\raggedright
 Um die Grafik übersichtlicher zu gestalten, wurde der Fernpunkt mit einer Lernzeit von 84 Stunden bei vorher nicht mit einbezogen.
 Der Median bei vorher liegt bei 10 und ist damit höher als der jetzige Median (7).
 Das 75\%-Quantil liegt im oberen Boxplot bei 15 und beim unteren bei 12.
@@ -211,7 +212,7 @@ In Abbildung 3 ist der Zusammenhang zwischen der Nutzung der Bibliothek Sebrath 
 	\caption{Mosaikplot: Ersatzbewertung}
 \end{figure}
 
-\leavevmode
+
 \newpage
 Insgesamt gaben nur 26,79\% der Befragten an, dass der Ersatz ausreichend sei. Die blaue Fläche nimmt einen großen Teil ein und beschreibt die Personen, die den Ersatz als nicht ausreichend bewerten. Personen, die die Sebrath-Bibliothek nutzen, bewerten den Ersatz eher als ausreichend (62.5\%) als Personen, die die Bibliothek nicht nutzen (20.83\%).
 
@@ -231,7 +232,6 @@ Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche
    
 	Die Kennzahlen der Bewertung der eben beschriebenen Aspekte werden in Tabelle 2 zusammengefasst.
 \end{figure}
-\centering{
 \begin{table}[h]
 	\vspace*{0cm}
 	\hspace*{0.48cm}
@@ -250,8 +250,8 @@ Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche
 	\end{tabular}
 			\caption{Kennzahlen der Bewertung der Aspekte}
 \end{table}
-}
-	\raggedright
+
+	%\raggedright
 \newpage
 
 
@@ -274,9 +274,9 @@ In Abbildung 5 werden der Score-Vorher (SV) und der Score-Jetzt (SJ) durch zwei 
 
 \vspace{-0.5cm}
 \begin{figure}[h]
-{\centering \input{ScoreVN.tex}
+\input{ScoreVN.tex}
 \vspace{-1.8cm}
-\caption{Streudiagramme zu Score Vorher und Jetzt}}
+\caption{Streudiagramme zu Score Vorher und Jetzt}
 \vspace{1cm}
 Dabei wird mit Orange gekennzeichnet, welche Studierende tatsächlich die UB benutzt haben. Die rote Gerade entspricht dem Mittelwert der jeweiligen Scores.
 Es fällt direkt auf, dass die Punkte im linken Diagramm deutlich höher und damit näher bei 1 liegen als die Punkte im SJ-Diagramm.
@@ -291,10 +291,9 @@ Es zeigt sich auch, dass die Punkte im Streudiagramm zum “Score-Jetzt” stär
 Um diese Aussage anhand der Stichprobe zu bestätigen vergleichen wir anhand folgender Tabelle die statistischen Kennzahlen der beiden Variablen Score-Vorher und Score-Jetzt: 
 
 
-
+\begin{center}
 \begin{table}[h]
 	\vspace{0.2cm}
-	\centering
 	\begin{tabular}{c|ccccccccc|c}
 		x & $\bar{x}$ & $s_x^2$ & $s_x$ & $min_x$ & $\tilde{x}_{0.25}$ & $\tilde{x}$ & $\tilde{x}_{0.75}$ & $max_x$ & $IQA$ & $n$ \\ \hline
 		Score-Vorher & 2.20 & 0.39 & 0.62 & 1.00 & 1.78 & 2.20 & 2.61 & 4.16 & 0.83 & 136 \\
@@ -302,6 +301,7 @@ Um diese Aussage anhand der Stichprobe zu bestätigen vergleichen wir anhand fol
 	\end{tabular}
 	\caption{Übersicht Score}
 \end{table}
+\end{center}
 	Die Kennzahlen bestätigen den Eindruck der Streudiagramme:\\
 Das arithmetische Mittel $\bar{x}$ ist beim Score Vorher kleiner.
 Auch die Streuung um $\bar{x}$ ist wie bereits angenommen beim Score-Vorher niedriger. Auch die 25\%- und 75\%-Quantile erhalten bei Score-Jetzt einen höheren Wert, eben der Median $\tilde{x}$.
@@ -316,7 +316,7 @@ Diese Differenz wird hier in Abhängigkeit von der durchschnittlichen Fahrzeit d
 		\vspace{-0.5cm}
 		\caption{ Streudiagramme zur Score Differenz in Abhängkigkeit der Fahrzeit }}
 		\vspace{1cm}
-		\raggedright
+		%\raggedright
 		
 	Die meisten Datenpunkte befinden sich im negativen Bereich. Mit zunehmender Fahrzeit nähert sich die Score-Differenz in den Daten der Null an. Ein linearer Zusammenhang ist jedoch zumindest anhand der Korrelation nicht erkennbar, da diese mit 0.147 nahe bei 0 liegt. Auch die weiteren Variablen zeigen keine nennenswerte Korrelationen mit der Score-Differenz auf.
 		
@@ -358,7 +358,6 @@ In Bezug auf unsere Forschungsfragen kann also abschließend geschlossen werden,
 
 \newpage
 \section{Reflexion}
-
 Abschließend wird das Projekt noch einmal kritisch reflektiert. \\
 
 Zunächst wurden bei der Erhebung Unstimmigkeiten mit den Items ersichtlich.
@@ -373,7 +372,6 @@ Daher wäre es spannend, die weitere Entwicklung, vor allem während der Klausur
 Die Lernortsituation ist im Verlauf eines Semesters und auch darüber hinaus ständig im Wandel, weshalb mehrere Erhebungszeiträume eine generelle Entwicklung besser erfassen könnten. Gleichzeitig war das Projekt durch den Kontext des Seminars “Erhebungstechniken” zeitlich eingeschränkt und eine spätere Erhebung war nicht möglich.\\
 
 Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen zum Fragebogen und seiner Erhebung. Die Wichtigkeit und auch das persönliche Interesse der Thematik kamen auch hier stark zum Ausdruck. Die weitere Evaluation der Lernortentwicklung ist immens wichtig und von großer Bedeutung und muss auch in Zukunft genau beobachtet werden.
-
 
 
 

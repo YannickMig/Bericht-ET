@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  28 JAN 2024 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  28 JAN 2024 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,6 +1124,23 @@ Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip85
+\RaggedLeftLeftskip=\skip86
+\RaggedRightLeftskip=\skip87
+\CenteringRightskip=\skip88
+\RaggedLeftRightskip=\skip89
+\RaggedRightRightskip=\skip90
+\CenteringParfillskip=\skip91
+\RaggedLeftParfillskip=\skip92
+\RaggedRightParfillskip=\skip93
+\JustifyingParfillskip=\skip94
+\CenteringParindent=\skip95
+\RaggedLeftParindent=\skip96
+\RaggedRightParindent=\skip97
+\JustifyingParindent=\skip98
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
@@ -1133,48 +1150,48 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 25.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-23.
+25.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-23.
+25.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-23.
+25.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 25.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1201,7 +1218,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 25.
  (Bericht.out) (Bericht.out)
 \@outlinefile=\write5
 \openout5 = `Bericht.out'.
@@ -1280,8 +1297,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Bericht.bbl' found.
  (Bericht.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
  [1
 
 {C:/Users/Jacqu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Jacq
@@ -1290,7 +1307,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \newpage \null\thispagestyle{empty}\newpage
+l.61 \newpage \null\thispagestyle{empty}\newpage
                                                  [2] (Bericht.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  6.
@@ -1319,37 +1336,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \newpage
+l.63 \newpage
              \null\thispagestyle{empty}\newpage [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \newpage\null\thispagestyle{empty}\newpage
+l.63 \newpage\null\thispagestyle{empty}\newpage
                                                 [4]
-Overfull \hbox (24.29196pt too wide) in paragraph at lines 63--69
-\T1/futs/m/n/10.95 Insgesamt lässt sich auf-grund der Er-geb-nis-se schluss-fol
--gern, dass sich die Lern-si-tua-ti-on ver-schlech-tert hat. 
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \newpage
+l.72 \newpage
              \null\thispagestyle{empty}\newpage [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \newpage\null\thispagestyle{empty}\newpage
+l.72 \newpage\null\thispagestyle{empty}\newpage
                                                 [6]
 
-LaTeX Warning: Citation '.27.01.2024' on page 1 undefined on input line 78.
+LaTeX Warning: Citation '.27.01.2024' on page 1 undefined on input line 80.
 
 
-Overfull \hbox (0.84273pt too wide) in paragraph at lines 86--88
+Overfull \hbox (0.84273pt too wide) in paragraph at lines 88--90
 []\T1/futs/m/n/10.95 Mit all die-sen wich-ti-gen Fra-gen be-schäf-tigt sich der
  fol-gen-de Be-richt. An-hand ei-ner Fragebogen-Auswertung
  []
@@ -1357,36 +1368,31 @@ Overfull \hbox (0.84273pt too wide) in paragraph at lines 86--88
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--116
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
@@ -1402,33 +1408,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 [3] [4] (Lernorte.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
-Overfull \hbox (56.60555pt too wide) in paragraph at lines 176--180
+Overfull \hbox (56.60555pt too wide) in paragraph at lines 177--181
 [][] 
  []
 
 (Frage2.tex)
-Overfull \hbox (4.59808pt too wide) in paragraph at lines 189--195
+Overfull \hbox (4.59808pt too wide) in paragraph at lines 190--196
     []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
  []
 
 (Mosaic.tex)
 
-LaTeX Warning: Float too large for page by 2.74615pt on input line 212.
+LaTeX Warning: Float too large for page by 16.34616pt on input line 213.
 
 [5] [6]
 
@@ -1437,16 +1453,16 @@ rsion <1.7>, but at most version <1.5> allowed
 <Tabellen.pdf, id=132, 845.1575pt x 597.23125pt>
 File: Tabellen.pdf Graphic file (type pdf)
 <use Tabellen.pdf>
-Package pdftex.def Info: Tabellen.pdf  used on input line 225.
+Package pdftex.def Info: Tabellen.pdf  used on input line 226.
 (pdftex.def)             Requested size: 609.26208pt x -21.43208pt.
 
-Overfull \hbox (71.80157pt too wide) in paragraph at lines 224--226
+Overfull \hbox (71.80157pt too wide) in paragraph at lines 225--227
 []|  [] 
  []
 
 [7 <./Tabellen.pdf>] (ScoreVN.tex)
 Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--279
- [][] 
+[][]
  []
 
 [8] (ScoreDiff.tex)
@@ -1454,101 +1470,156 @@ Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--317
  [][] 
  []
 
-[9] [10] [11]
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
 
-LaTeX Warning: Empty bibliography on input line 383.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--354
+
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--373
+
+ []
 
 [12]
-<Final2.pdf, id=175, 598.15468pt x 846.04092pt>
+
+LaTeX Warning: Empty bibliography on input line 381.
+
+[13]
+<Final2.pdf, id=180, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 388.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 388.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-<Final2.pdf, id=178, page=1, 598.15468pt x 846.04092pt>
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 388.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 388.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 388.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 388.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 390.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
- [13 <./Final2.pdf>]
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 391.
+Package pdftex.def Info: Final2.pdf  used on input line 386.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 391.
+Package pdftex.def Info: Final2.pdf  used on input line 386.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-<Final2.pdf, id=237, page=2, 598.15468pt x 846.04092pt>
+<Final2.pdf, id=183, page=1, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 391.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 386.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 391.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 386.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 391.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 386.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 391.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 386.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 391.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 388.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [14 <./Final2.pdf>]
-<Final2.pdf, id=250, page=3, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 391.
+<use Final2.pdf>
+Package pdftex.def Info: Final2.pdf  used on input line 389.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf>
+Package pdftex.def Info: Final2.pdf  used on input line 389.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+<Final2.pdf, id=241, page=2, 598.15468pt x 846.04092pt>
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 389.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 391.
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 391.
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 389.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [15 <./Final2.pdf>]
-<Final2.pdf, id=256, page=4, 598.15468pt x 846.04092pt>
+<Final2.pdf, id=254, page=3, 598.15468pt x 846.04092pt>
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 389.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 389.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 389.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+ [16 <./Final2.pdf>]
+<Final2.pdf, id=260, page=4, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 391.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 391.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 391.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
- [16 <./Final2.pdf>] (EO.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--397
+ [17 <./Final2.pdf>] (EO.tex)
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--395
  [][] 
  []
 
@@ -1561,11 +1632,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[18]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18] [19] (Bericht.aux)
+[19] [20] (Bericht.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1586,10 +1657,10 @@ Package logreq Info: Writing requests to 'Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30880 strings out of 474587
- 586644 string characters out of 5745702
+ 30968 strings out of 474587
+ 588588 string characters out of 5745702
  1964558 words of memory out of 5000000
- 52496 multiletter control sequences out of 15000+600000
+ 52579 multiletter control sequences out of 15000+600000
  614800 words of font info for 86 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,17n,93p,1060b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1599,9 +1670,9 @@ urier/fourier-ms.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/
 adobe/utopia/putb8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/adobe/utopia/putr8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/
 type1/adobe/utopia/putri8a.pfb>
-Output written on Bericht.pdf (25 pages, 558151 bytes).
+Output written on Bericht.pdf (26 pages, 560269 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
