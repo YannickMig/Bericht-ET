@@ -170,7 +170,7 @@ farben_blau_gruen = c(rgb(.5, .7, .4), rgb(.4, .6, .8), rgb(.8, .7, .4),
                       rgb(.8, .4, .4), rgb(.6, .4, .8) , rgb(.9, .6, .2) )
 library(RColorBrewer)
 farben_blau_gruen <- brewer.pal(6, "Set2") 
-farben <- paste0('d3.scaleOrdinal().range(["', paste(farben_blau_gruen, collapse = '","'), '"])')
+farben <- paste0('d3.scaleOrdinal().range(["', paste(coul3, collapse = '","'), '"])')
 
 sankey_diagramm <- sankeyNetwork(Links = data_long, Nodes = nodes,
               Source = "IDsource", Target = "IDtarget",
@@ -412,6 +412,34 @@ text(
 )
 dev.off()
 
+## Andere Achsen ##
+
+sum_before_pl$Names <- c("UB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "Süd Campus", "SRG")
+sum_now_pl$Names <- c("SB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "Süd Campus", "SRG")
+sum_before_pl$Names <- factor(sum_before_pl$Names, levels =  c("UB", "Fakultät", "EFB", "CLS", "Galerie", "BCI", "Süd Campus", "SRG"))
+sum_now_pl$Names <- factor(sum_now_pl$Names, levels =  c("SB", "Fakultät","EFB","CLS", "Galerie", "BCI", "Süd Campus", "SRG"))
+
+palette1 <- colorRampPalette(c("#E41A1C", "#377EB8", "#4DAF4A", "#FF7F00"))
+coul1 <- palette1(8)
+coul1 <- c("#E41A1C" , "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,"navyblue","rosybrown2" , "#B2931F")
+coul2 <- c("#FFFF00",  "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,"navyblue","rosybrown2" , "#B2931F")
+coul3 <- c("#99445E", "#E41A1C", "#FF7F00", "#FFFF00" ,"#46A169", "#4F6FA1")
+coul4 <- c("#46A169", "#FFFF00")
+
+#coul2 <- c("#FFFF00",  "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,"#4F6FA1", "#66A83F" , "#B2931F")
+# "springgreen3", "royalblue2"
+
+library(tikzDevice)
+tikz('Lernorte.tex', width=6,height=3.5)
+par(mfrow = c(1, 2))
+par(mgp = c(5.5, 1, 0))
+par(mar = c(6.5, 4, 4, 2) + c(0, 1, 0, 0))
+bp1 <- barplot(sum_before_pl$Werte ~ sum_before_pl$Names, las = 2, ylim = c(0,100), col = coul1, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung Vorher", cex.names = 0.98, cex.lab = 1, cex.axis = 1)
+bp2 <- barplot(sum_now_pl$Werte ~ sum_now_pl$Names, las = 2, ylim = c(0,100), col = coul2, xlab = "Lernorte", ylab = "Anzahl",  main="Lernortnutzung Jetzt", cex.names = 0.98, cex.lab = 1, cex.axis = 1)
+dev.off()
+
+library("ggplot2")
+library("ggsci")
 
 ### Wofür Lernorte nutzen ###
 
@@ -488,14 +516,17 @@ for(i in 38:57){
 
 ### Mosaic-Plots ###
 
+library(tikzDevice)
 tikz('Mosaic.tex', width=4.3,height=3.8)
 par(mfrow = c(1, 2))
 mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
-           data = data, ylab = "Ersatz ausreichend", xlab= "Universitäts-Bibiliothek", col = c("darkorange", "darkblue"), main = " ")
+           data = data, ylab = "Ersatz ausreichend", xlab= "Universitäts-Bibiliothek", col = c("springgreen3", "royalblue2"), main = " ")
+text(c(-1.28,0.8), labels = c("10"), col = "white", cex = 1.2)
 mosaicplot(~ factor(`SB(J)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
-           data = data, ylab = "Ersatz ausreichend", xlab= "Sebrath-Bibliothek",
-           col = c("darkorange", "darkblue"), main = "Bewertung im Kontext der Sebrath Bibliothek")
+           data = data, ylab = "Ersatz ausreichend", xlab= "Nutzung der Sebrath-Bibliothek",
+           col = c("springgreen3", "royalblue2"), main = "Bewertung im Kontext der Sebrath Bibliothek")
+text(c(0.5, 1.5), c(0.5, 1.5), labels = c("10", "20"), col = "white", cex = 1.2)
 mtext(expression(bold("Bewertung im Kontext der Sebrath Bibliothek")), side = 3, line = -2.5, outer = TRUE)
 dev.off()

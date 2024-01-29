@@ -1,12 +1,17 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
-
+\usepackage{csquotes}
+\usepackage{pdfpages}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
 \usepackage{booktabs}
 \usepackage{rotating}
 \usepackage{hyperref}
 \usepackage{color, colortbl}
 \usepackage{mathtools}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
 \usepackage{pdfpages}
 \usepackage{fourier}
 \usepackage[T1]{fontenc} % Output font encoding for international characters
@@ -107,7 +112,7 @@ Mit einem halboffenen Antwortformat werden danach die Gründe für die Nutzung e
 Um das Ausfüllen zu erleichtern, befinden sich auf der zweiten Seite drei inhaltlich eng miteinander verbundene Tabellen. In diesen Tabellen werden vorab ausgewählte Aspekte auf ihre Wichtigkeit und Umsetzung geprüft. Die zehn ausgewählten Aspekte sind in allen Tabellen identisch und  in der gleichen Reihenfolge aufgeführt. Es wurden geschlossene Antwortmöglichkeiten gewählt.
 In der ersten Tabelle kann die Wichtigkeit der Aspekte bewertet werden. Dies geschieht mit einer bipolaren Ratingskala der Breite fünf.\\
 
-Die beiden nachfolgenden Tabellen haben das gleiche Format und ermöglichen die Bewertung der Umsetzung der Kriterien. Hier wird eine unipolare Ratingskala genutzt, welche genau wie das Schulnotensystem aufgebaut ist, jedoch
+Die beiden nachfolgenden Tabellen haben das gleiche Format und ermöglichen die  ers Umsetzung der Kriterien. Hier wird eine unipolare Ratingskala genutzt, welche genau wie das Schulnotensystem aufgebaut ist, jedoch
 mit den entsprechend bekannten Begriffen verbalisiert wurde.
 Dadurch sollte dem Befragten die Entscheidung erleichtert werden, da das Notensystem insbesondere für Studenten sehr intuitiv ist. 
 Danach besteht die Möglichkeit, in einem halboffenen Item einen eigenen Aspekt zu nennen und zu bewerten.
@@ -161,13 +166,12 @@ Die Stichprobe besteht daher aus 138 Studierenden. Hinsichtlich der Geschlechter
 \subsection{Lernortnutzung}
 \begin{figure}[h]
 Für die Untersuchung der allgemeinen Lernortsituation ist es zunächst relevant herauszufinden, wo sich die Studierenden aufhalten. Abbildung 1 verdeutlicht, welche Lernorte am häufigsten genutzt werden und wie sich die Nutzung nach der Schließung verändert hat.
-
  \input{Lernorte.tex}
- \vspace{-0.62cm}
+ \vspace{-0.17cm}
  \caption{Vergleich Lerznortnutzung }
- \vspace{0.5cm}
+ \vspace{0.3cm}
 
-Es ist deutlich erkennbar, dass die Universitätsbibliothek (UB) im vergangenen Semester am häufigsten genutzt wurde - und zwar von 104 der 138 Befragten. Auch die Nutzung der Räumlichkeiten der eigenen Fakultät ist deutlich ausgeprägt. Das Co-Learning Space wird von 24  Befragten genutzt, während nur 16 angaben, die Sebrath Bibliothek zu nutzen. 
+Es ist deutlich erkennbar, dass die Universitätsbibliothek ("'UB"') im vergangenen Semester am häufigsten genutzt wurde - und zwar von 104 der 138 Befragten. Auch die Nutzung der Räumlichkeiten der eigenen Fakultät ("'Fakultät"') ist deutlich ausgeprägt. Das Co-Learning Space ("'CLS"') wird von 24  Befragten genutzt, während nur 16 angaben, die Sebrath Bibliothek ("'SB"') zu nutzen. 
 Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.\\
 
 Aus den Daten wird ebenfalls ersichtlich, wofür die Lernorte gebraucht werden:
@@ -195,7 +199,7 @@ Hauptsächlich wurde dabei angegeben, dass die Lernorte für die Bearbeitung von
 	\hspace{-0.8cm}
 	{\centering} \input{Frage2.tex}
 	\vspace{0cm}
-	\caption{Boxplots}
+	\caption{Boxplots der Lernzeiten}
 	\vspace{0.7cm}
 	%\raggedright
 Um die Grafik übersichtlicher zu gestalten, wurde der Fernpunkt mit einer Lernzeit von 84 Stunden bei "'Vorher"' nicht mit einbezogen.
@@ -207,7 +211,7 @@ Die mediane Lernzeit hat sich von 10 auf 7 Stunden pro Woche verringert und die 
 
 In Abbildung 3 ist der Zusammenhang zwischen der Nutzung der Bibliothek Sebrath und der Bewertung des Ersatzes in Form eines Mosaikplot dargestellt. Die x-Achse gibt an, ob die Sebrath-Bibliothek genutzt wurde, die y-Achse, ob der Ersatz als ausreichend empfunden wurde. 
 	
-	\vspace{0.5cm}
+	\vspace{0.07cm}
 	 \begin{center}
 	{\centering \input{Mosaic.tex}} \end{center}
 	\vspace{-1.5cm}
@@ -226,6 +230,7 @@ Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche
 	\vspace*{6.2cm}
 	\hspace*{-1.95cm}
 	\includegraphics[scale = 0.746, trim=0.5cm 11cm 0.5cm 11cm]{Tabellen.pdf}
+		\vspace{0.2cm}
 	\caption{Wichtigkeit der Lernorte}
 	\vspace{0.5cm}
    Über 50\% der Befragten erachten die Aspekte “Erreichbarkeit“, “Öffnungszeiten“, “Platzgarantie“ und “Stromversorgung“ als sehr wichtig. Im Gegensatz dazu wird der “Zugang zu Computern“ von 38,97\% der Befragten als sehr unwichtig eingestuft. “ Neutral bewertet werden die Aspekte “Erreichbarkeit“ und “Pausenräume.”
@@ -368,25 +373,54 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 
 
 \newpage
-\newpage
 \section{Literaturverzeichnis}
 \printbibliography
 \newpage
 \section{Appendix}
 \subsection{Fragebogen}
+\fancypagestyle{pdfpages}{%
+	\fancyhf{} % Leere Kopf- und Fußzeilen
+	\renewcommand{\headrulewidth}{0pt} 
+	\renewcommand{\footrulewidth}{0pt} % Keine horizontale Linie unten
+	\fancyfoot[C]{\thepage}
+}
+
+% PDF einfügen
 \begin{figure}[h]
-\includepdf[pages=1, offset=0cm -3cm] {Final2.pdf}
+	\includepdf[pages=1, pagecommand={\thispagestyle{pdfpages}}, offset=0cm -2.6cm]{Final2.pdf}
 \end{figure}
+% Zurücksetzen auf das Standard-Seitenlayout für den Rest des Dokuments
+\pagestyle{plain}
 \newpage
-\includepdf[pages=2-4] {Final2.pdf}
+\includepdf[offset=0cm 0cm, pages=2-4] {Final2.pdf}
 \newpage
-\subsection{Demografie}
+
+\subsection{Anteile}
+\begin{table}[h]
+	\begin{tabular}{l|l}
+		Abschnitt                                          & Verantwortliche Person \\ \hline
+		Zusammenfassung                                    & Jacqueline Link        \\
+		Einleitung                                         & Yannick Miguel         \\
+		Erhebungsinstrument                                & Yannick Miguel         \\
+		Stichprobe und Datensatz                           &
+		Jacqueline Link        \\
+		Ergebnisse - Lernortnutzung                        & Jacqueline Link        \\
+		Ergebnisse - Wichtigkeit und Umsetzung der Aspekte & Jacqueline Link        \\
+		Ergebnisse - Gesamtzufriedeneheit und Score        & Yannick Miguel         \\
+		Diskussion                                         & Yannick Miguel         \\
+		Reflexion                                          & Jacqueline Link       
+	\end{tabular}
+\end{table}
+\subsection{Zusätzliche Grafiken}
+\vspace{0.22cm}
+\subsection*{Orte der Erhebung}
 \begin{figure}[h]
 	\centering
 	\input{EO.tex}
 	\caption{Verteilung der Erhebungsorte}
 \end{figure}
-
+\newpage
+\subsection*{Verteilung der Fakultäten}
 \begin{table}[h]
 	\centering
 	\begin{tabular}{cl|cc}
@@ -411,6 +445,7 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 	\end{tabular}
 	\caption{Verteilung der Fakultäten}
 \end{table}
+\subsection*{Geschlechterverteilung}
 \begin{table}[h]
 	\centering
 	\begin{tabular}{l|ccc}
@@ -420,6 +455,7 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 	\vspace{0.5cm}
 	\caption{Verteilung der Geschlechtsidentifzierung}
 \end{table}
+\subsection*{Verteilung der angestrebten Abschlüsse}
 \begin{table}[h]
 	\centering
 	\begin{tabular}{l|cc}
@@ -431,22 +467,11 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 \end{table}
 
 \newpage
-\subsection{Anteile}
-\begin{table}[h]
-	\begin{tabular}{l|l}
-		Abschnitt                                          & Verantwortliche Person \\ \hline
-		Zusammenfassung                                    & Jacqueline Link        \\
-		Einleitung                                         & Yannick Miguel         \\
-		Erhebungsinstrument                                & Yannick Miguel         \\
-		Stichprobe und Datensatz                           &
-		Jacqueline Link        \\
-		Ergebnisse - Lernortnutzung                        & Jacqueline Link        \\
-		Ergebnisse - Wichtigkeit und Umsetzung der Aspekte & Jacqueline Link        \\
-		Ergebnisse - Gesamtzufriedeneheit und Score        & Yannick Miguel         \\
-		Diskussion                                         & Yannick Miguel         \\
-		Reflexion                                          & Jacqueline Link       
-	\end{tabular}
-\end{table}
+\subsection*{Wechsel der Lernortnutzung}
+\vspace{-2cm}
+\begin{figure}[h]
+	\includepdf[pages=1, offset=0.2cm 3cm] {sankey.pdf}
+\end{figure}
 \end{document}
 
 
