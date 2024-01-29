@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  29 JAN 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  29 JAN 2024 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,10 +1376,6 @@ een already used, duplicate ignored
                    \relax 
 l.77 \newpage\null\thispagestyle{empty}\newpage
                                                 [6]
-
-LaTeX Warning: Citation '.27.01.2024' on page 1 undefined on input line 85.
-
-
 Overfull \hbox (0.84273pt too wide) in paragraph at lines 93--95
 []\T1/futs/m/n/10.95 Mit all die-sen wich-ti-gen Fra-gen be-schäf-tigt sich der
  fol-gen-de Be-richt. An-hand ei-ner Fragebogen-Auswertung
@@ -1387,201 +1383,176 @@ Overfull \hbox (0.84273pt too wide) in paragraph at lines 93--95
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--123
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 [3] [4] (Lernorte.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
 
-Overfull \hbox (56.60555pt too wide) in paragraph at lines 183--187
+Overfull \hbox (56.60555pt too wide) in paragraph at lines 178--182
 [][] 
  []
 
 (Frage2.tex)
-Overfull \hbox (4.59808pt too wide) in paragraph at lines 196--202
+Overfull \hbox (4.59808pt too wide) in paragraph at lines 191--197
     []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--211
+Underfull \hbox (badness 10000) in paragraph at lines 200--206
 
  []
 
 (Mosaic.tex)
 
-LaTeX Warning: Float too large for page by 4.1117pt on input line 219.
+LaTeX Warning: Float too large for page by 4.1117pt on input line 214.
 
 [5] [6]
 <Tabellen.pdf, id=132, 845.1575pt x 597.23125pt>
 File: Tabellen.pdf Graphic file (type pdf)
 <use Tabellen.pdf>
-Package pdftex.def Info: Tabellen.pdf  used on input line 232.
+Package pdftex.def Info: Tabellen.pdf  used on input line 227.
 (pdftex.def)             Requested size: 609.26208pt x -21.43208pt.
 
-Overfull \hbox (71.80157pt too wide) in paragraph at lines 231--234
+Overfull \hbox (71.80157pt too wide) in paragraph at lines 226--229
 []|  []
  []
 
 [7 <./Tabellen.pdf>] (ScoreVN.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--286
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--281
 [][]
  []
 
 [8] (ScoreDiff.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--327
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--322
  [][] 
  []
 
 [9] [10] [11]
 
-LaTeX Warning: Empty bibliography on input line 377.
+LaTeX Warning: Empty bibliography on input line 372.
 
 [12]
 <Final2.pdf, id=179, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 390.
+Package pdftex.def Info: Final2.pdf  used on input line 385.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 390.
+Package pdftex.def Info: Final2.pdf  used on input line 385.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 <Final2.pdf, id=182, page=1, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 390.
+Package pdftex.def Info: Final2.pdf , page1 used on input line 385.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 390.
+Package pdftex.def Info: Final2.pdf , page1 used on input line 385.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 390.
+Package pdftex.def Info: Final2.pdf , page1 used on input line 385.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 390.
+Package pdftex.def Info: Final2.pdf , page1 used on input line 385.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 394.
+Package pdftex.def Info: Final2.pdf , page1 used on input line 389.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [13 <./Final2.pdf>]
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 395.
+Package pdftex.def Info: Final2.pdf  used on input line 390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 395.
+Package pdftex.def Info: Final2.pdf  used on input line 390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 <Final2.pdf, id=241, page=2, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page2 used on input line 390.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page2 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page2 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page2 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page2 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [14 <./Final2.pdf>]
 <Final2.pdf, id=254, page=3, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page3 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page3 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page3 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [15 <./Final2.pdf>]
 <Final2.pdf, id=260, page=4, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 395.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 390.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [16 <./Final2.pdf>] (EO.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--420
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--415
  [][] 
  []
 
@@ -1589,32 +1560,32 @@ Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--420
 <sankey.pdf, id=281, 597.19106pt x 845.07718pt>
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf>
-Package pdftex.def Info: sankey.pdf  used on input line 473.
+Package pdftex.def Info: sankey.pdf  used on input line 468.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf>
-Package pdftex.def Info: sankey.pdf  used on input line 473.
+Package pdftex.def Info: sankey.pdf  used on input line 468.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
 <sankey.pdf, id=284, page=1, 597.19106pt x 845.07718pt>
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 473.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 468.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 473.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 468.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 473.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 468.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 473.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 468.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 475.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 470.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [19 <./sankey.pdf>] (Bericht.aux)
  ***********
@@ -1637,10 +1608,10 @@ Package logreq Info: Writing requests to 'Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31707 strings out of 474587
- 600340 string characters out of 5745702
- 1962558 words of memory out of 5000000
- 53307 multiletter control sequences out of 15000+600000
+ 31524 strings out of 474587
+ 596705 string characters out of 5745702
+ 1964558 words of memory out of 5000000
+ 53124 multiletter control sequences out of 15000+600000
  614800 words of font info for 86 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,17n,87p,1060b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1650,7 +1621,7 @@ urier/fourier-ms.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/
 adobe/utopia/putb8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/adobe/utopia/putr8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/
 type1/adobe/utopia/putri8a.pfb>
-Output written on Bericht.pdf (25 pages, 590035 bytes).
+Output written on Bericht.pdf (25 pages, 590108 bytes).
 PDF statistics:
  367 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
