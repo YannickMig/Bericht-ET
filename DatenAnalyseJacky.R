@@ -379,8 +379,8 @@ dev.off()
 ### Lernorte Vorher Nachher ###
 
 library(RColorBrewer)
-sum_before_pl <- data.frame(Names = factor(c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_before[1:8])
-sum_now_pl <- data.frame(Names = factor(c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG"), levels = c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "Süd Campus", "SRG")), Werte = sum_now[1:8])
+sum_before_pl <- data.frame(Names = factor(c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "SRG", "Süd Campus"), levels = c("UB","EFB","CLS", "Galerie", "Fakultät","BCI", "SRG", "Süd Campus")), Werte = sum_before[1:8])
+sum_now_pl <- data.frame(Names = factor(c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "SRG", "Süd Campus"), levels = c("Sebrath","EFB","CLS", "Galerie", "Fakultät","BCI", "SRG", "Süd Campus")), Werte = sum_now[1:8])
 
 coul1 <- c("#1abc9c", "#e67e22", "#2c3e50", "#95a5a6", "#f1c40f", "#8e44ad", "#d35400", "#27ae60")
 coul2 <- c("#ff5733", "#e67e22", "#2c3e50", "#95a5a6", "#f1c40f", "#8e44ad", "#d35400", "#27ae60")
@@ -413,15 +413,15 @@ dev.off()
 
 ## Andere Achsen ##
 
-sum_before_pl$Names <- c("UB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "Süd Campus", "SRG")
-sum_now_pl$Names <- c("SB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "Süd Campus", "SRG")
-sum_before_pl$Names <- factor(sum_before_pl$Names, levels =  c("UB", "Fakultät", "EFB", "CLS", "Galerie", "BCI", "Süd Campus", "SRG"))
-sum_now_pl$Names <- factor(sum_now_pl$Names, levels =  c("SB", "Fakultät","EFB","CLS", "Galerie", "BCI", "Süd Campus", "SRG"))
+sum_before_pl$Names <- c("UB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "SRG", "Süd Campus")
+sum_now_pl$Names <- c("SB", "EFB", "CLS", "Galerie", "Fakultät", "BCI", "SRG", "Süd Campus")
+sum_before_pl$Names <- factor(sum_before_pl$Names, levels =  c("UB", "Fakultät", "EFB", "CLS", "Galerie", "BCI", "SRG", "Süd Campus"))
+sum_now_pl$Names <- factor(sum_now_pl$Names, levels =  c("SB", "Fakultät","EFB","CLS", "Galerie", "BCI", "SRG", "Süd Campus"))
 
 palette1 <- colorRampPalette(c("#E41A1C", "#377EB8", "#4DAF4A", "#FF7F00"))
 coul1 <- palette1(8)
-coul1 <- c("#E41A1C" , "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,"navyblue","rosybrown2" , "#B2931F")
-coul2 <- c("#FFFF00",  "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,"navyblue","rosybrown2" , "#B2931F")
+coul1 <- c("#E41A1C" , "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,   "#B2931F" , "rosybrown2" , "navyblue")
+coul2 <- c("#FFFF00",  "#46A169" ,  "#FF7F00" , "#99445E" ,"#3D8C98" ,  "#B2931F" , "rosybrown2" , "navyblue")
 coul3 <- c("#99445E", "#E41A1C", "#FF7F00", "#FFFF00" ,"#46A169", "#4F6FA1")
 coul4 <- c("#46A169", "#FFFF00")
 
