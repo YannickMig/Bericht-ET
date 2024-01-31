@@ -5,10 +5,10 @@
 \contentsline {section}{\numberline {4}Ergebnisse}{3}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Lernortnutzung}{3}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Wichtigkeit und Umsetzung der Aspekte}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{6}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Diskussion}{8}{section.5}%
-\contentsline {section}{\numberline {6}Reflexion}{10}{section.6}%
-\contentsline {section}{\numberline {7}Appendix}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Fragebogen}{11}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Anteile}{15}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Zusätzliche Grafiken}{15}{subsection.7.3}%
+\contentsline {section}{\numberline {6}Reflexion}{9}{section.6}%
+\contentsline {section}{\numberline {7}Appendix}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Fragebogen}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Anteile}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Zusätzliche Grafiken}{14}{subsection.7.3}%

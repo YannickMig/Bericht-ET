@@ -6,7 +6,9 @@
 \usepackage{csquotes}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{caption}
+\usepackage{makecell}
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{hyperref}
@@ -91,6 +93,7 @@ Unter anderem wurden auch in der Galerie neue Lernplätze geschaffen und die Öf
 Doch reichen diese Änderungen aus, um den Verlust der Universitätsbibliothek auszugleichen?
 Gibt es genug Lernorte für die Studierende? Wie zufriedenstellend sind die Räumlichkeiten? Ist die Situation eventuell sogar besser als vorher?\\
 
+\vspace{-0.2cm}
 Aufgrund dieser Überlegungen ergeben sich uns folgende Forschungsfragen:\\
 Welche Aspekte sind für die Studierenden relevant und wie wird die Umsetzung dieser bewertet?\\
 Wie bewerten Studierende die aktuelle Lernortsituation und wie hat sich die Gesamtzufriedenheit seit der Schließung der UB verändert?\\
@@ -122,8 +125,7 @@ Im zweiten Teil werden geschlossen die Geschlechtsidentifizierung und der angest
 Außerdem soll die befragte Person in einem offenen Item ihre Fakultät angeben.
 Lehramtsstudierende sollen hierbei die Fakultät 12 angeben.
 Auf der letzten Seite besteht die Möglichkeit, Feedback in einem offenen Textfeld zu geben.
-Abschließend wird sich formell bedankt und die Verantwortlichen für diesen Fragebogen werden genannt.
-
+Abschließend wird sich formell bedankt und die Verantwortlichen für diesen Fragebogen werden genannt.\\
 \section{Stichprobe und Datensatz}
 \label{Stichprobe und Datensatz}
 Die Grundgesamtheit setzt sich aus allen Studierenden der Technischen Universität Dortmund zusammen, die mindestens seit dem Sommersemester 2023 studieren. Insgesamt handelt es sich um 25 169 Personen. Es wurden 141 Fragebögen verteilt, von denen 138 ausgewertet werden konnten. Zwei Fragebögen wurden entfernt, da diese leer abgegeben wurden. Des Weiteren hat eine Person erst seit dem Wintersemester 2024 studiert. Dieser Fragebogen wurde ebenfalls aussortiert. \\
@@ -149,19 +151,30 @@ $y_{ij}$ ist die Bewertung der Umsetzung des j-ten Aspekts der i-ten Person.\\
  Wenn beispielsweise der Aspekt "'Ruhe"' als "'sehr wichtig"' eingestuft wurde, wird er mit dem Faktor fünf gewichtet. Am Ende wird durch die Summe der Gewichte geteilt, um eine normierte Variable zu erhalten.  Diese reicht erneut von eins bis sechs wie die ursprünglichen Variablen und kann leichter interpretiert und verglichen werden.\\
 \section{Ergebnisse}
 \subsection{Lernortnutzung}
-Für die Untersuchung der allgemeinen Lernortsituation ist es zunächst relevant herauszufinden, wo sich die Studierenden aufhalten. Abbildung 1 verdeutlicht, welche Lernorte am häufigsten genutzt werden und wie sich die Nutzung nach der Schließung verändert hat.
-\vspace{-0.48cm}
+Für die Untersuchung der allgemeinen Lernortsituation ist es zunächst relevant herauszufinden, wo sich die Studierenden aufhalten. Abbildung 1 verdeutlicht, welche Lernorte am häufigsten genutzt werden und wie sich die Nutzung nach der Schließung verändert hat:
+\vspace{-0.6cm}
 \begin{figure}[h]
  \input{Lernorte.tex}
  \vspace{0.1cm}
- \caption{Vergleich Lernortnutzung}
+ \caption{Zeitlicher Vergleich der Lernortnutzung}
 \end{figure}
-
+\newpage
 Es ist deutlich erkennbar, dass die Universitätsbibliothek ("'UB"') im vergangenen Semester am häufigsten genutzt wurde - und zwar von 104 der 138 Befragten. Auch die Nutzung der Räumlichkeiten der eigenen Fakultät ("'Fakultät"') ist deutlich ausgeprägt.\\ Das Co-Learning Space ("'CLS"') wird von 24  Befragten genutzt, während nur 16 angaben, die Sebrath Bibliothek ("'SB"') zu nutzen. 
-Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.
+Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.\\
+
+Aus den Daten wird ebenfalls ersichtlich, wofür die Lernorte gebraucht werden:
+\begin{table}[h]
+	\begin{tabular}{c|ccccccc}
+		& \begin{tabular}[c]{@{}l@{}}Zeit-\\ überbrückung\end{tabular} & Abgaben & \begin{tabular}[c]{@{}l@{}}Vor-/\\Nachbereitung\end{tabular} & \begin{tabular}[c]{@{}l@{}}Gruppen-\\ arbeiten\end{tabular} & Klausuren & Abschlussarbeiten \\ \hline
+		Anzahl & 57            & 101             & 74                          & 83                     & 76                 & 22                      
+	\end{tabular}
+	\caption{Gründe der Lernortnutzung}
+\end{table}
 \begin{figure}[htp]
-	Die Daten geben auch eine ungefähre Vorstellung davon, wie viel Zeit die Befragten in den Lernorten der TU verbringen.
-	In Abbildung 2 werden mithilfe von Boxplots die aktuellen geschätzten wöchentlichen Zeiten mit denen des letzten Semesters verglichen. \\
+	Hauptsächlich wurde dabei angegeben, dass die Lernorte für die Bearbeitung von Abgaben genutzt werden. Am wenigsten werden die Lernorte für Abschlussarbeiten verwendet. Im Feld "'Sonstiges"' wurde noch aufgeführt, dass die Lernorte auch für Berufstätigkeiten genutzt werden.\\
+	
+	Die erhobenen Daten geben auch eine ungefähre Vorstellung davon, wie viel Zeit die Befragten an den Lernorten der TU verbringen.
+	In Abbildung 2 werden mithilfe von Boxplots die aktuellen geschätzten wöchentlichen Zeiten mit denen des letzten Semesters verglichen: \\
 	\vspace{-1.5cm}
 	\hspace{-0.8cm}
 	{\centering} \input{Frage2.tex}
@@ -175,9 +188,8 @@ Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutze
 	Zudem ist der obere Boxplot etwas breiter (IQA = 11) als der untere (IQA = 9).
 	Auch sind bei den vorherigen Werten mehr Außenpunkte zu erkennen.
 	Die mediane Lernzeit hat sich von 10 auf 7 Stunden pro Woche verringert und die Streuung hat abgenommen.\\
+	\end{figure}\\
 	In Abbildung 3 ist der Zusammenhang zwischen der Nutzung der Sebrath-Bibliothek  und der Bewertung des Ersatzes in Form eines Mosaikplots dargestellt. Die x-Achse gibt an, ob die Sebrath-Bibliothek genutzt wurde, die y-Achse, ob der Ersatz als ausreichend empfunden wurde. 
-	\end{figure}
-		\vspace{-5cm}
 	\begin{figure}[h]
 	 \begin{center}
 	{\centering \input{Mosaic.tex}} \end{center}
@@ -201,11 +213,10 @@ Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche
 	\caption{Wichtigkeit der Lernorte}
 	\vspace{0.28cm}
 \end{figure}
-   Dabei steht "'n"' für die Anzahl erhaltener Antworten. Über 50\% der Befragten erachten die Aspekte “Erreichbarkeit“, “Öffnungszeiten“, “Platzgarantie“ und “Stromversorgung“ als sehr wichtig. Im Gegensatz dazu wird der “Zugang zu Computern“ von 38,97\% der Befragten als sehr unwichtig eingestuft. “ Neutral bewertet werden die Aspekte “Erreichbarkeit“ und “Pausenräume.”
-Weitere wichtige Aspekte, die unter “Sonstiges” genannt wurden, waren “Zugang zu Getränke- und Snackautomaten”, “Internetzugang” und “Wohlfühlfaktor”.
+   Dabei steht "'n"' für die Anzahl erhaltener Antworten. Über 50\% der Befragten erachten die Aspekte “Erreichbarkeit“, “Öffnungszeiten“, “Platzgarantie“ und “Stromversorgung“ als sehr wichtig. Im Gegensatz dazu wird der “Zugang zu Computern“ von 38,97\% der Befragten als sehr unwichtig eingestuft. Neutral bewertet werden die Aspekte “Erreichbarkeit“ und “Pausenräume”'. Weitere wichtige Aspekte, die unter “Sonstiges” genannt wurden, waren “Zugang zu Getränke- und Snackautomaten”, “Internetzugang” und “Wohlfühlfaktor”.
 
 
-Die Kennzahlen der Bewertung der eben beschriebenen Aspekte werden in Tabelle 2 zusammengefasst.
+Die Kennzahlen der Bewertung der eben beschriebenen Aspekte werden in Tabelle 2 zusammengefasst:
 \begin{table}[h]
 	\vspace*{0cm}
 	\hspace*{0.48cm}
@@ -226,22 +237,18 @@ Die Kennzahlen der Bewertung der eben beschriebenen Aspekte werden in Tabelle 2 
 \end{table}
 
 	%\raggedright
-Die einzigen Aspekte, die im Mittelwert besser als 2 bewertet wurden, sind “Erreichbarkeit” (1,64), “Sicherheit” (1,86) und “Öffnungszeiten” (1,93). Die übrigen Aspekte liegen im Wertebereich von 2,13 bis 2,79.
-Im Vergleich zeigt die Mittelwertdifferenz, dass sich die Bewertung aller Aspekte verschlechtert hat. Auffällig ist, dass der Aspekt “Platzgarantie” mit einem Mittelwert von 3,61 bewertet wird (vorher 2,79). Eine noch stärkere Veränderung weisen die Aspekte “Erreichbarkeit” und “Öffnungszeiten” mit Differenzen von 0,88 bzw. 0,86 auf.
-Zusätzlich wird die Veränderung des Medians der Bewertung vorher und jetzt angegeben. Vereinzelt zeigen diese eine Differenz von 1 auf.
-
-
-\newpage
-
+Die einzigen Aspekte, die im Mittelwert besser als "'2"' bewertet wurden, sind “Erreichbarkeit” (1,64), “Sicherheit” (1,86) und “Öffnungszeiten” (1,93). Die übrigen Aspekte liegen im Wertebereich von 2,13 bis 2,79.
+Im Vergleich zeigt die Mittelwertdifferenz, dass sich die Bewertung aller Aspekte verschlechtert hat. Auffällig ist, dass der Aspekt “Platzgarantie” mit einem Mittelwert von 3,61 (vorher 2,79) bewertet wird. Eine noch stärkere Veränderung weisen die Aspekte “Erreichbarkeit” und “Öffnungszeiten” mit Differenzen von 0,88 bzw. 0,86 auf.
+Zusätzlich wird die Veränderung des Medians der Bewertung zum vorherigen und aktuellen Zeitpunkt angegeben. Vereinzelt zeigen diese eine Differenz von 1 auf.
 \subsection{Gesamtzufriedenheit und Score}
 
 
 
 Von großem Interesse ist in der Analyse die Gesamtzufriedenheit mit den Lernorten der Studierenden.
 Diese latente Variable wird, wie bereits in Abschnitt 3 erwähnt, durch den “Score” repräsentiert. Dieser wurde für jede Person sowohl vorher als auch aktuell berechnet.
-Ein niedriger Score (nahe 1) soll dabei für eine hohe Zufriedenheit stehen und ein höherer Wert für eine niedrigere Zufriedenheit.\\
+Ein niedriger Score (nahe 1) soll dabei für eine hohe Zufriedenheit stehen. Ein höherer Wert entspricht einer niedrigere Zufriedenheit.\\
 Weiterhin ist zu beachten, dass hier mit quasi-intervallskalierten Daten gerechnet wurde.
-In Abbildung 5 werden der Score-Vorher (SV) und der Score-Jetzt (SJ) durch zwei Streudiagramme verglichen.
+In Abbildung 5 werden der "'Score Vorher"' (SV) und der "'Score Jetzt"' (SJ) durch zwei Streudiagramme verglichen:
 
 \vspace{-0.5cm}
 \begin{figure}[h]
@@ -250,12 +257,12 @@ In Abbildung 5 werden der Score-Vorher (SV) und der Score-Jetzt (SJ) durch zwei 
 \caption{Streudiagramme zu Score Vorher und Jetzt}
 \vspace{1cm}
 \end{figure}
-Dabei wird mit orange gekennzeichnet, welche Studierende tatsächlich die UB benutzt haben. Die rote Gerade entspricht dem Mittelwert der jeweiligen Scores.
+Dabei wird mit orange gekennzeichnet, welche Studierende tatsächlich die UB benutzt haben. Die roten Geraden entsprechen dem Mittelwert des jeweiligen Scores.
 Es fällt direkt auf, dass die Punkte im linken Diagramm deutlich höher und damit näher bei 1 liegen als die Punkte im SJ-Diagramm.
-Ebenso auffällig ist, dass die rote Linie auch einen niedrigeren Wert für vorher darstellt.
+Ebenso auffällig ist, dass die rote Gerade beim SV höher liegt als beim SJ.
 Von "'Vorher"' zu "'Jetzt"' ist hier ein deutlich negativer Trend zu erkennen.
 Im rechten Diagramm ist bei genauerer Betrachtung zu erkennen, dass vor allem die orangen Punkte unter der roten Mittelwertgeraden liegen.
-Es zeigt sich auch, dass die Punkte im Streudiagramm zum “Score-Jetzt” stärker streuen als die Punkte im “Score-Vorher”.\\
+Es zeigt sich auch, dass die Punkte im Streudiagramm zum “Score Jetzt” stärker streuen als die Punkte im “Score Vorher”.\\
 Um diese Aussage anhand der Stichprobe zu bestätigen, werden anhand folgender Tabelle die statistischen Kennzahlen der beiden Variablen Score-Vorher und Score-Jetzt verglichen: 
 
 
@@ -265,11 +272,11 @@ Um diese Aussage anhand der Stichprobe zu bestätigen, werden anhand folgender T
 	\vspace{0.2cm}
 	\begin{tabular}{c|ccccccccc|c}
 		x & $\bar{x}$ & $s_x^2$ & $s_x$ & $min_x$ & $\tilde{x}_{0.25}$ & $\tilde{x}$ & $\tilde{x}_{0.75}$ & $max_x$ & $IQA$ & $n$ \\ \hline
-		Score-Vorher & 2.20 & 0.39 & 0.62 & 1.00 & 1.78 & 2.20 & 2.61 & 4.16 & 0.83 & 136 \\
-		Score-Jetzt & 2.74 & 0.57 & 0.76 & 1.00 & 2.24 & 2.81 & 3.10 & 5.00 & 0.86 & 136
+		Score Vorher & 2.20 & 0.39 & 0.62 & 1.00 & 1.78 & 2.20 & 2.61 & 4.16 & 0.83 & 136 \\
+		Score Jetzt & 2.74 & 0.57 & 0.76 & 1.00 & 2.24 & 2.81 & 3.10 & 5.00 & 0.86 & 136
 	\end{tabular}
 	\vspace{0.2cm}
-	\caption{Übersicht Score}
+	\caption{Statistische Kennzahl des Scores}
 \end{center}
 \end{table}
 
@@ -277,6 +284,7 @@ Um diese Aussage anhand der Stichprobe zu bestätigen, werden anhand folgender T
 Das arithmetische Mittel $\bar{x}$ ist beim "'Score-Vorher"' kleiner.
 Auch die Streuung um $\bar{x}$ ist wie bereits angenommen beim Score-Vorher niedriger. Auch die 25\%- und 75\%-Quantile erhalten bei Score-Jetzt einen höheren Wert, ebenso der Median $\tilde{x}$.
 Der Interquantilsabstand ist bei beiden Variablen nahezu identisch. \\
+
 Zuletzt wird die Score-Differenz "'Score-Vorher"' minus "'Score-Jetzt"' betrachtet. 
 Ein negativer Wert steht für eine Verschlechterung des Scores im Laufe der Zeit.
 Diese Differenz wird hier in Abhängigkeit von der durchschnittlichen Fahrzeit der Studierenden dargestellt.
@@ -284,9 +292,9 @@ Diese Differenz wird hier in Abhängigkeit von der durchschnittlichen Fahrzeit d
 	
 \begin{figure}[h]
 	{\centering \input{ScoreDiff.tex}
-		\vspace{-0.5cm}
+		\vspace{-0.6cm}
 		\caption{ Streudiagramme zur Score Differenz in Abhängkigkeit der Fahrzeit }}
-		\vspace{1cm}
+		\vspace{0.6cm}
 		%\raggedright
 		
 	Die meisten Datenpunkte befinden sich im negativen Bereich. Mit zunehmender Fahrzeit nähert sich die Score-Differenz in den Daten der Null an. Ein linearer Zusammenhang ist jedoch zumindest anhand der Korrelation nicht erkennbar, da diese mit 0.147 nahe bei 0 liegt. Auch die weiteren Variablen zeigen keine nennenswerten Korrelationen mit der Score-Differenz auf.
@@ -298,7 +306,7 @@ Diese Differenz wird hier in Abhängigkeit von der durchschnittlichen Fahrzeit d
 
 \newpage
 \section{Diskussion}
-Die isse deuten alle darauf hin, dass sich die Lernortsituation seit dem Wintersemester  23/24 verschlechtert hat. Dafür sprechen zum Beispiel die Ergebnisse aus Abschnitt 4.2. In Tabelle zwei konnte gesehen werden, dass alle Aspekte im arithmetischen Mittel aktuell schlechter bewertet wurden als zuvor. Dabei ist sehr auffällig, dass kein einziger Aspekt besser oder identisch bewertet wurde.\\
+Die Ergebnisse deuten alle darauf hin, dass sich die Lernortsituation seit dem Wintersemester  23/24 verschlechtert hat. Dafür sprechen zum Beispiel die Ergebnisse aus Abschnitt 4.2. In Tabelle zwei konnte gesehen werden, dass alle Aspekte im arithmetischen Mittel aktuell schlechter bewertet wurden als zuvor. Dabei ist sehr auffällig, dass kein einziger Aspekt besser oder identisch bewertet wurde.\\
 Die schlechte öffentliche Anbindung und die erhöhte Entfernung der Sebrath-Bibliothek zum Campus-Nord bzw. Süd könnten die Hauptgründe für die größte Verschlechterung im Aspekt Erreichbarkeit sein. Die Öffnungszeiten der SB sind deutlich kürzer als die der UB, was eine mögliche Erklärung für die höhere Unzufriedenheit im Aspekt "'Öffnungszeiten"' darstellt.
 Auch die Platzgarantie ist stark betroffen, da die Sebrath-Bibliothek deutlich weniger Plätze bietet als die UB. 
 Prozentual gesehen gehören die drei genannten Aspekte auch zu denen, die in Abbildung 4 am wichtigsten erscheinen. In Bezug auf die erste Forschungsfrage ist nun klar, dass den Befragten vor allem die Aspekte "'Platzgarantie"', "'Erreichbarkeit"' und "'Öffnungszeiten"', aber auch "'Stromversorgung"', am wichtigsten sind und diese gleichzeitig die größte Verschlechterung aufweisen. Daher kann für die zweite Forschungsfrage erwartet werden, dass die Grundzufriedenheit gesunken ist.
@@ -308,6 +316,7 @@ Zum Beispiel gibt es in den erweiterten Lernorten, unter anderem der Galerie, de
 Insgesamt sind vor allem die UB-Nutzer unzufriedener. Dies ist wieder auf den Wegfall der UB zurückzuführen.
 Abb. 6 zeigt womöglich, dass Studierende, die eine sehr lange Fahrzeit zum Campus angaben, weniger betroffen sind. Studierende, die länger zur Uni brauchen, greifen wahrscheinlich auch oft auf andere Lernorte in ihrer Nähe zurück. \\
 Zudem wurde bei dem aktuellen Score eine hohe Streuung beobachtet (vgl. 4.3). Dies könnte auf den Zeitpunkt der Umfrage zurückzuführen sein. Da das Semester erst begonnen hatte, waren einigen Studierenden die neuen Lernorte eventuell noch unbekannt. Eine konkrete Einschätzung könnte daher schwierig gewesen sein, da sie mit der aktuellen Situation noch unvertraut waren. Diese Unsicherheit könnte auch die hohe Streuung erklären.\\
+Es ist zu beachten, dass der Score nur ein nicht verifiziertes Konzept ist. Er ist daher auch in diesem Zusammenhang kritisch zu betrachten.
 Im Mosaikplot (Abb. 3) wird deutlich, dass Nutzer der Sebrath-Bibliothek den Ersatz anteilsmäßig besser bewerten. Jedoch ist auch erkennbar, dass unter den Befragten ein nur sehr geringer Anteil, nämlich 11,6\%, diese überhaupt besuchen.\\
 Allgemein scheint es so, dass die neu geschaffenen Alternativen kaum genutzt werden und eine generelle Unzufriedenheit mit diesen besteht. Gründe dafür könnten laut den Ergebnissen sein, dass nicht genügend auf die neuen Lernorte aufmerksam gemacht wird, dass sie nicht erreichbar genug sind und auch dass eine schlechtere Platzgarantie besteht.\\
 Die Universitätsbibliothek hingegen hatte auf dem Campus Nord eine zentrale Lage, da sie in direkter Nähe vom Mensagebäude, sowie den Bus- und S-Bahn-Haltestellen und auch der H-Bahn war. \\
@@ -317,11 +326,7 @@ Andererseits zeigt Abb. 1, dass die Besucherzahl der Galerie stark gestiegen ist
 Für einige scheint dieser Lernort also auch eine positive Ausweichmöglichkeit zu sein.
 Der Mosaikplot in Abb. 3 zeigt auch, dass die wenigen Nutzer der SB generell zufriedener mit dem Ersatz sind. Abgesehen von dem vermeintlichen Hauptproblem der Sebrath-Bibliothek, der Erreichbarkeit, scheint sie also zufriedenstellend zu sein.\\
 In Bezug auf die Forschungsfrage, wie die Studierenden die aktuelle Lernorsituation einschätzen, kann also abschließend Folgendes gesagt werden. Die Alternativen zum Zeitpunkt der Erhebung scheinen nicht ausreichend zu sein, und die allgemeine Zufriedenheit bezüglich der Lernorte ist gesunken.
-Es scheint, dass das negative Meinungsbild auch bei den Verantwortlichen der TU Dortmund angekommen ist, da diese in der Zwischenzeit einen weiteren Lernort in der Innenstadt geplant und eröffnet haben.\\
-
-
-
-
+Es scheint, dass das negative Meinungsbild auch bei den Verantwortlichen der TU Dortmund angekommen ist, da diese in der Zwischenzeit einen weiteren Lernort in der Innenstadt geplant und eröffnet haben.
 \newpage
 \section{Reflexion}
 Abschließend wird das Projekt noch einmal kritisch reflektiert. \\
@@ -447,6 +452,7 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 \begin{minipage}{\textwidth}
 	\captionof{figure}{Sankey Diagramm zum Wechsel der Lernortnutzung}
 \end{minipage}
+\newpage
 \end{document}
 
 
