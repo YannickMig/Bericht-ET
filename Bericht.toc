@@ -8,8 +8,8 @@
 \contentsline {subsection}{\numberline {4.3}Gesamtzufriedenheit und Score}{6}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Diskussion}{8}{section.5}%
 \contentsline {section}{\numberline {6}Reflexion}{9}{section.6}%
-\contentsline {section}{\numberline {7}Literaturverzeichnis}{11}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{12}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Fragebogen}{12}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Anteile}{16}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Zusätzliche Grafiken}{16}{subsection.8.3}%
+\contentsline {section}{\numberline {7}Literaturverzeichnis}{10}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Fragebogen}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Anteile}{15}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Zusätzliche Grafiken}{15}{subsection.8.3}%
