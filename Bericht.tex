@@ -6,6 +6,8 @@
 \usepackage{csquotes}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
+\usepackage{caption}
+\usepackage{graphicx}
 \usepackage{rotating}
 \usepackage{hyperref}
 \usepackage{color, colortbl}
@@ -18,9 +20,8 @@
 \usepackage[parfill]{parskip}
 \usepackage[left=2cm,right=2cm,top=1.5cm]{geometry}
 \usepackage{tikz}
-\usepackage[style=authoryear]{biblatex}
+\usepackage[backend=biber]{biblatex}
 \addbibresource{Literaturverzeichnis.bib}
-\bibliography{Literaturverzeichnis}
 \definecolor{Gray}{gray}{0.9}
 \setlength\parindent{0pt}
 \usepackage{ragged2e}
@@ -42,7 +43,7 @@
 	Erhebungstechniken: Bericht über Fragebogenstudie
 	
 	\Huge
-	\textbf{Lernortsituation an der TU Dortmund}
+	\textbf{Lernortentwicklung an der TU Dortmund}
 	
 	\Large
 	\vspace{4em}
@@ -67,12 +68,13 @@
 \tableofcontents
 \newpage\null\thispagestyle{empty}\newpage
 \section*{Zusammenfassung}
-In dieser Fragebogenstudie wird untersucht, wie sich die Lernortsituation seit der Schließung der Zentralbibliothek der Technischen Universität Dortmund verändert hat und wie diese Entwicklung bewertet wird.\\
-Der Fragebogen besteht aus 15 Items, wobei geschlossene, halboffene und offene Antwortformate genutzt werden sowie eine bipolare und unipolare Ratingskala. \\
-Die Grundgesamtheit besteht aus Personen, die seit dem Sommersemester 2023 studieren. Die Stichprobe umfasst 138 Personen, die im Wintersemester 2023/2024 an verschiedenen Lernorten befragt wurden.
-Es fällt auf, dass sowohl die Daten weiblicher als auch männlicher Personen in etwa gleicher Anzahl erhoben wurden. Von den Fakultäten wurden vor allem Personen aus der Statistik sowie der Fakultät Erziehungswissenschaften, Psychologie und Bildungsforschung erhoben.
-Die gewonnenen Daten zeigen, dass die Aspekte 'Erreichbarkeit',  'Platzgarantie' und 'Öffnungszeiten' für Studierende von großer Relevanz sind und gleichzeitig die stärkste Verschlechterung aufweisen. Zusätzlich wurde ein Score entwickelt, der die Gesamtzufriedenheit widerspiegeln soll. Diese latente Variable weißt ebenfalls eine negative Tendenz auf.\\
-Insgesamt lässt sich aufgrund der Ergebnisse schlussfolgern, dass sich die Lernsituation verschlechtert hat.
+In dieser Fragebogenstudie wird untersucht, wie sich die Lernortsituation seit der Schließung der Universitätsbibliothek der Technischen Universität Dortmund verändert hat und wie diese Entwicklung bewertet wird.
+Der Fragebogen besteht aus 15 Items mit geschlossenen, halboffenen und offenen Antwortformaten sowie einer bipolaren und einer unipolaren Ratingskala. \\
+Die Grundgesamtheit besteht aus allen Personen, die ab dem Sommersemester 2023 studieren. Die Stichprobe umfasst 138 Studierende, die im Wintersemester 2023/24 an verschiedenen Lernorten befragt wurden.
+Es fällt auf, dass die Daten von weiblichen und männlichen Personen in etwa gleicher Anzahl erhoben wurden. Von den Fakultäten wurden vermehrt Personen aus der Fakultät Statistik und der Fakultät für Erziehungswissenschaft, Psychologie und Bildungsforschung befragt.\\
+Seit dem Wegfall der Universitätsbibliothek im August 2023 werden zwar Alternativen angeboten, auf diese wurde aber scheinbar nicht genügend aufmerksam gemacht und zurückgegriffen.\\
+Die gewonnenen Daten zeigen auch, dass die Aspekte 'Erreichbarkeit', 'Platzgarantie' und 'Öffnungszeiten' für die Studierenden von hoher Relevanz sind und gleichzeitig die stärkste Verschlechterung aufweisen. Zusätzlich wurde ein Score entwickelt, der die Gesamtzufriedenheit widerspiegeln soll. Auch diese latente Variable weist einen negativen Trend auf.
+Insgesamt lassen die Ergebnisse den Schluss zu, dass sich die Lernsituation verschlechtert hat.\\
 
 \newpage\null\thispagestyle{empty}\newpage
 
@@ -81,17 +83,20 @@ Insgesamt lässt sich aufgrund der Ergebnisse schlussfolgern, dass sich die Lern
 \pagenumbering{arabic}
 \section{Einleitung}
 \label{Einleitung}
-Mit dem Wegfall der Universitätsbibliothek (UB) im August 2023 stellt sich für einige Studierende die Frage: “Wo soll ich zukünftig lernen?”.
-Abgesehen von den vielen Plätzen zum Lernen, war die UB für viele von individueller Wichtigkeit.
-Durch den idealen Standort und den langen Öffnungszeiten, ist die Schließung der UB für viele Studierende ein großer Verlust.
+Mit dem Wegfall der Universitätsbibliothek (UB) stellt sich für einige Studierende die Frage: “Wo soll ich zukünftig lernen?”.\\
+Endgültig schloss die UB am siebten August und befindet sich seitdem bis voraussichtlich 2028/29 im Neubau. Zuletzt bot diese über 800 000 Bücher und Zeitschriften, Zugang zu Computern und viele Plätze für Einzel- und Gruppenarbeiten. Abgesehen davon war diese für viele von individueller Wichtigkeit.
+Durch den idealen Standort und den langen Öffnungszeiten ist die Schließung der UB für viele Studierende ein großer Verlust.\\
 Die Technische Universität Dortmund ist bemüht Ersatz zu schaffen, eröffnet die Sebrath-Bibliothek und erweitert einige Lernorte wie den Co-Learning Space.
-Unter anderem wurden auch in der Galerie und im Mensagebäude neue Lernplätze geschaffen.
+Unter anderem wurden auch in der Galerie neue Lernplätze geschaffen und die Öffnungszeiten wurden erweitert.
 Doch reichen diese Änderungen aus, um den Verlust der Universitätsbibliothek auszugleichen?
-Gibt es genug Lernorte für die Studenten? Wie zufriedenstellend sind die Räumlichkeiten?
-Ist die Situation eventuell sogar besser als vorher?
+Gibt es genug Lernorte für die Studierende? Wie zufriedenstellend sind die Räumlichkeiten? Ist die Situation eventuell sogar besser als vorher?\\
 
-Mit all diesen wichtigen Fragen beschäftigt sich der folgende Bericht.
-Anhand einer Fragebogen-Auswertung wird ein vielseitiger Einblick in die Veränderung der Lernort-Nutzung an der TU Dortmund seit dem Wintersemester 2023/24 ermöglicht.
+Aufgrund dieser Überlegungen ergeben sich uns folgende Forschungsfragen:\\
+Welche Aspekte sind für die Studierenden relevant und wie wird die Umsetzung dieser bewertet?\\
+Wie bewerten Studierende die aktuelle Lernortsituation und wie hat sich die Gesamtzufriedenheit seit der Schließung der UB verändert?\\
+Mit genau diesen wichtigen Überlegungen beschäftigt sich der folgende Bericht.
+Anhand einer Fragebogenstudie wird ein vielseitiger Einblick in die Veränderung der Lernort-Nutzung an der TU Dortmund seit dem Wintersemester 2023/24 ermöglicht.
+
 
 \section{Erhebungsinstrument}
 \label{Erhebungsinstrument}
@@ -101,78 +106,61 @@ Der Fragebogen beginnt mit dem Titel "'Veränderung der Lernort-Nutzung an der T
 Alle Items bestehen aus einer Frage und einer kursiv geschriebenen technischen Anweisung. Die Anweisung soll das Ausfüllen erleichtern und den Befragten dabei unterstützen, die Fragen korrekt und eindeutig zu beantworten. Bei Einfachnennungen wurden Kreise als Ankreuzfelder gewählt.
 Der erste Teil mit der Überschrift 'Nutzung der Lernorte' beginnt mit einer Einstiegsfrage.
 Der Leser wird gefragt, ob er diese Woche bereits einen Lernort genutzt hat. Diese einfache Ja-Nein-Frage soll ihn motivieren und einen persönlichen Bezug zu dem Thema herstellen. Für die Auswertung ist dieses Item jedoch irrelevant.\\
-Anschließend wird in offener Form die Nutzungsdauer der Lernorte für den vorherigen und aktuellen Zeitpunkt erhoben. Das dritte Item besteht aus einer Tabelle, die erfasst, welche Lernorte vorher und aktuell genutzt wurden.
+Anschließend wird in offener Form die Nutzungsdauer der Lernorte für den vorherigen und aktuellen Zeitpunkt erhoben. Das geschlossene dritte Item besteht aus einer Tabelle, die erfasst, welche Lernorte vorher und aktuell genutzt wurden.
 Um Missverständnisse zu vermeiden, wurden die Antwortmöglichkeiten für die Sebrath-Bibliothek und Universitätsbibliothek eingeschränkt, da diese vorher bzw. jetzt nicht zur Verfügung standen bzw. stehen.
 Mit einem halboffenen Antwortformat werden danach die Gründe für die Nutzung erfragt.
-Um das Ausfüllen zu erleichtern, befinden sich auf der zweiten Seite drei inhaltlich eng miteinander verbundene Tabellen. In diesen Tabellen werden vorab ausgewählte Aspekte auf ihre Wichtigkeit und Umsetzung geprüft. Die zehn ausgewählten Aspekte sind in allen Tabellen identisch und  in der gleichen Reihenfolge aufgeführt. Es wurden geschlossene Antwortmöglichkeiten gewählt.
+Auf der zweiten Seite befinden sich drei inhaltlich eng miteinander verbundene Tabellen. In diesen Tabellen werden vorab ausgewählte Aspekte auf ihre Wichtigkeit und Umsetzung geprüft. Die zehn ausgewählten Aspekte sind in allen Tabellen identisch und  in der gleichen Reihenfolge aufgeführt. Es wurden geschlossene Antwortmöglichkeiten gewählt.
 In der ersten Tabelle kann die Wichtigkeit der Aspekte bewertet werden. Dies geschieht mit einer bipolaren Ratingskala der Breite fünf.\\
-Die beiden nachfolgenden Tabellen haben das gleiche Format und ermöglichen die  ers Umsetzung der Kriterien. Hier wird eine unipolare Ratingskala genutzt, welche genau wie das Schulnotensystem aufgebaut ist, jedoch
-mit den entsprechend bekannten Begriffen verbalisiert wurde.
-Dadurch soll dem Befragten die Entscheidung erleichtert werden, da das Notensystem insbesondere für Studenten sehr intuitiv ist. 
+Die beiden nachfolgenden Tabellen haben das gleiche Format und ermöglichen die Bewertung der Umsetzung der Aspekte. Hier wird eine unipolare Ratingskala genutzt, welche genau wie das Schulnotensystem aufgebaut ist, jedoch
+mit den entsprechend bekannten Begriffen ("'sehr gut"' bis "'ungenügend"') verbalisiert wurde.
+Dadurch soll dem Befragten die Entscheidung erleichtert werden, da das Notensystem insbesondere für Studierende sehr intuitiv ist. 
 Danach besteht die Möglichkeit, in einem halboffenen Item einen eigenen Aspekt zu nennen und zu bewerten.
 Abschließend wird im ersten Teil eine allgemeine Bewertung der aktuellen Lernort-Situation erfragt.
 Hierfür wird eine bipolare Ratingskala von “sehr schlecht” bis “sehr gut” genutzt, die bewusst keine neutrale Antwortmöglichkeit bietet, um eindeutigere Ergebnisse zu erzielen.\\
-In Frage 11 wird abgefragt, ob der Ausgleich der Universitätsbibliothek angemessen erscheint. Diese Frage bezieht sich ausschließlich auf Studierende, die die Universitätsbibliothek genutzt haben.
-Im zweiten Teil werden die Geschlechtsidentifizierung, der angestrebte Studienabschluss und die durchschnittliche Fahrzeit zum Campus erfragt.
-Außerdem soll die befragte Person in einem offenen Item seine Fakultät angeben.
+In Frage elf wird abgefragt, ob der Ausgleich der Universitätsbibliothek angemessen erscheint. Diese bezieht sich ausschließlich auf Studierende, die die Universitätsbibliothek genutzt haben.
+Im zweiten Teil werden geschlossen die Geschlechtsidentifizierung und der angestrebte Studienabschluss erfragt, sowie offen die durchschnittliche Fahrzeit zum Campus.
+Außerdem soll die befragte Person in einem offenen Item ihre Fakultät angeben.
 Lehramtsstudierende sollen hierbei die Fakultät 12 angeben.
-Auf der letzten Seite besteht die Möglichkeit, Feedback in einem Textfeld zu geben.
+Auf der letzten Seite besteht die Möglichkeit, Feedback in einem offenen Textfeld zu geben.
 Abschließend wird sich formell bedankt und die Verantwortlichen für diesen Fragebogen werden genannt.
 
 \section{Stichprobe und Datensatz}
 \label{Stichprobe und Datensatz}
+Die Grundgesamtheit setzt sich aus allen Studierenden der Technischen Universität Dortmund zusammen, die mindestens seit dem Sommersemester 2023 studieren. Insgesamt handelt es sich um 25 169 Personen. Es wurden 141 Fragebögen verteilt, von denen 138 ausgewertet werden konnten. Zwei Fragebögen wurden entfernt, da diese leer abgegeben wurden. Des Weiteren hat eine Person erst seit dem Wintersemester 2024 studiert. Dieser Fragebogen wurde ebenfalls aussortiert. \\
+Die Stichprobe besteht daher aus 138 Studierenden. Hinsichtlich der Geschlechterverteilung fällt auf, dass ungefähr gleich viele weibliche (48,5\%) und männliche (50\%) Personen erfasst wurden. Zusätzlich gab es noch zwei Personen, die sich als divers identifizierten. Von den befragten Studierenden gaben 117 (86\%) an, dass sie im Bachelor sind und 19 Personen (14\%) gaben an, dass sie sich im Masterstudium befinden. Es ist erkennbar, dass mehr Studierende im Bachelor befragt wurden. An der Technischen Universität Dortmund befinden sich derzeit 75\% der Studierenden im Bachelor und 25\% im Master. Darüber hinaus wurden die Fakultäten erfasst, wobei jede Fakultät, mit Ausnahme der Fakultät 14 und 17, erhoben wurden. Insgesamt gaben 30 Befragte an, an der Fakultät fünf (Statistik) zu studieren, während weitere 30 angaben, an der Fakultät zwölf (Erziehungswissenschaften, Psychologie und Bildungsforschung) zu studieren. Die restlichen Befragten sind etwa gleichmäßig auf die anderen 14 Fakultäten verteilt. (vgl. Anhang 7.3)\\
 
-Die Daten wurden an verschiedenen Lernorten der Technischen Universität Dortmund erhoben. Die Befragungsorte wurden dabei als Metadaten vermerkt. Auffällig ist, dass die Befragungen vermehrt im Mathetower durchgeführt wurden (vgl. Anhang). Die Befragung fand nicht nur an diversen Orten, sondern auch zu verschiedenen Tageszeiten und Wochentagen statt, um ein vielfältiges Meinungsbild zu erhalten.\\
-
+\vspace{-0.15cm}
+Die Daten wurden an verschiedenen Lernorten der Technischen Universität Dortmund erhoben. Die Befragungsorte wurden dabei als Metadaten vermerkt. Auffällig ist, dass die Befragungen vermehrt im Mathetower durchgeführt wurden (vgl. Anhang 7.3). Die Befragung fand nicht nur an diversen Orten, sondern auch zu verschiedenen Tageszeiten und Wochentagen statt, um ein vielfältiges Meinungsbild zu erhalten.\\
 Die Personen wurden zunächst gefragt, ob sie mindestens seit dem Sommersemester 2023 an der TU Dortmund studieren. War dies der Fall, wurde der Fragebogen schriftlich ohne Einwirkung des Interviewers ausgefüllt.\\
-Die Dateneingabe erfolgte über ein gemeinsames Excel-Dokument. Jedes Gruppenmitglied nutzte dabei eine eigene Tabelle, die einem vorgegebenen Prototyp mit einheitlicher Kodierung entsprach. Zur Datenauswertung und -analyse wurden die vier Tabellen zu einer einzelnen Excel-Tabelle zusammengeführt. Aus der zweiten Frage ergeben sich 2 intervallskalierte Variablen zur geschätzten Lernzeit vorher und zum aktuellen Zeitpunkt. Das dritte Item wurde in eine dichotome Variable umgewandelt. Dabei wurde bei jedem Lernort ein Kreuz als 1 gewertet und keine Angabe als 0. \\
-Analog wurden für die vierte Frage dichotome Variablen genutzt. Aus Frage 5 ergeben sich 10 ordinalskalierte Variablen zu jedem Aspekt. Die Tabellen 6 und 7 liefern ebenfalls ordinalskalierte Variablen, die die Umsetzung der Aspekte als numerische Schulnote angeben. Das 9. Item liefert eine ordinale Variable, die Ersatzbewertung eine dichotome.\\
+Die Dateneingabe erfolgte über ein gemeinsames Excel-Dokument. Jedes Gruppenmitglied nutzte dabei eine eigene Tabelle, die einem vorgegebenen Prototyp mit einheitlicher Kodierung entsprach. Zur Datenauswertung und -analyse wurden die vier Tabellen zu einer einzelnen Excel-Tabelle zusammengeführt. Aus der zweiten Frage ergeben sich zwei intervallskalierte Variablen zur geschätzten Lernzeit vorher und zum aktuellen Zeitpunkt. Das dritte Item wurde in eine dichotome Variable umgewandelt. Dabei wurde bei jedem Lernort ein Kreuz als "'1"' gewertet und keine Angabe als "'0"'. \\
+Analog wurden für die vierte Frage dichotome Variablen genutzt. Aus Frage fünf ergeben sich zehn ordinalskalierte Variablen zu jedem Aspekt. Die Tabellen sechs und sieben liefern ebenfalls ordinalskalierte Variablen, die die Umsetzung der Aspekte als numerische Schulnote angeben. Das neunte Item liefert eine ordinale Variable, die Ersatzbewertung eine dichotome.\\
+Die ordinalskalierten Daten aus den Fragen fünf bis neun wurden bei der weiteren Auswertung als quasiintervallskaliert behandelt. Bei den personenbezogenen Daten handelt es sich um drei nominalskalierte Merkmale und schlussendlich um eine intervallskalierte Fahrzeit. Falls bei der Fahrzeit ein Intervall angegeben wurde, wurde hier das arithmetische Mittel genutzt. \\
 
-Die ordinalskalierten Daten aus den Fragen 5 bis 9 wurden bei der weiteren Auswertung als quasiintervallskaliert behandelt. Bei den personenbezogenen Daten handelt es sich um 3 nominalskalierte Merkmale und schlussendlich um eine intervallskalierte Fahrzeit. Falls bei der Fahrzeit ein Intervall angegeben wurde, wurde hier das arithmetische Mittel genutzt. 
-Für die latente Variable 'Gesamtzufriedenheit' wurde folgende Formel aufgestellt:
-
+\vspace{-0.1cm}
+Für die latente Variable "'Gesamtzufriedenheit"' wurde folgende Formel aufgestellt:
 \begin{equation*}
 	z_i = \frac{\sum\limits_{j=1}^{10}x_{ij}\cdot  y_{ij}}{\sum\limits_{j=1}^{10}x_{ij}} \hspace{0.8cm} , \text{für} \ 
 	i=1,...,138\  \text{und} \ j=1,...,10
+	\vspace{0.15cm}
 \end{equation*} 
 Dabei ist $z_i$ der Score der i-ten Person. \\
 $x_{ij}$ ist die Wichtigkeit des j-ten Aspekts der i-ten Person und
-$y_{ij}$ ist die Bewertung der Umsetzung des j-ten Aspekts der i-ten Person.
-
- Wenn beispielsweise der Aspekt 'Ruhe' als 'sehr wichtig' eingestuft wurde, wird er mit dem Faktor fünf gewichtet. Am Ende wird durch die Summe der Gewichte geteilt, um eine normierte Variable zu erhalten.  Diese reicht erneut von 1 bis 6 wie die ursprünglichen Variablen und kann leichter interpretiert und verglichen werden.\\
-
-
-Die Grundgesamtheit setzt sich aus allen Studierenden der Technischen Universität Dortmund zusammen, die mindestens seit dem Sommersemester 2023 studieren. Insgesamt handelt es sich um 25 169 Personen. Es wurden 141 Fragebögen verteilt, von denen 138 ausgewertet werden konnten. Zwei Fragebögen wurden entfernt, da diese leer abgegeben wurden. Des Weiteren hat eine Person erst seit dem Wintersemester 2024 studiert. Dieser Fragebogen wurde ebenfalls aussortiert. \\
-
-
-Die Stichprobe besteht daher aus 138 Studierenden. Hinsichtlich der Geschlechterverteilung fällt auf, dass ungefähr gleich viele weibliche (48,5\%) und männliche (50\%) Personen erfasst wurden. Zusätzlich gab es noch zwei Personen, die sich als divers identifizierten. Von den befragten Studierenden gaben 117 (86\%) an, dass sie im Bachelor sind und 19 Personen (14\%) gaben an, dass sie sich im Masterstudium befinden. Es ist erkennbar, dass mehr Studierende im Bachelor befragt wurden. An der Technischen Universität Dortmund befinden sich derzeit 75\% der Studierenden im Bachelor und 25\% im Master. Darüber hinaus wurden die Fakultäten erfasst, wobei jede Fakultät, mit Ausnahme der Fakultät 14 und 17, erhoben wurden. Insgesamt gaben 30 Befragte an, an der Fakultät 5 (Statistik) zu studieren, während weitere 30 angaben, an der Fakultät 12 (Erziehungswissenschaften, Psychologie und Bildungsforschung) zu studieren. Die restlichen Befragten sind etwa gleichmäßig auf die anderen 14 Fakultäten verteilt.
+$y_{ij}$ ist die Bewertung der Umsetzung des j-ten Aspekts der i-ten Person.\\
+ Wenn beispielsweise der Aspekt "'Ruhe"' als "'sehr wichtig"' eingestuft wurde, wird er mit dem Faktor fünf gewichtet. Am Ende wird durch die Summe der Gewichte geteilt, um eine normierte Variable zu erhalten.  Diese reicht erneut von eins bis sechs wie die ursprünglichen Variablen und kann leichter interpretiert und verglichen werden.\\
 \section{Ergebnisse}
 \subsection{Lernortnutzung}
 Für die Untersuchung der allgemeinen Lernortsituation ist es zunächst relevant herauszufinden, wo sich die Studierenden aufhalten. Abbildung 1 verdeutlicht, welche Lernorte am häufigsten genutzt werden und wie sich die Nutzung nach der Schließung verändert hat.
+\vspace{-0.48cm}
 \begin{figure}[h]
  \input{Lernorte.tex}
  \vspace{0.1cm}
  \caption{Vergleich Lernortnutzung}
- \vspace{0.6cm}
 \end{figure}
 
 Es ist deutlich erkennbar, dass die Universitätsbibliothek ("'UB"') im vergangenen Semester am häufigsten genutzt wurde - und zwar von 104 der 138 Befragten. Auch die Nutzung der Räumlichkeiten der eigenen Fakultät ("'Fakultät"') ist deutlich ausgeprägt.\\ Das Co-Learning Space ("'CLS"') wird von 24  Befragten genutzt, während nur 16 angaben, die Sebrath Bibliothek ("'SB"') zu nutzen. 
-Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.\\
-
-Aus den Daten wird ebenfalls ersichtlich, wofür die Lernorte gebraucht werden:
-\begin{table}[h]
-	\begin{tabular}{c|ccccccc}
-		& Zeitüberbrückung & Abgaben & Vor-/Nachbereitung & Gruppenarbeiten & Klausuren & Abschlussarbeiten \\ \hline
-		Anzahl & 57            & 101             & 74                          & 83                     & 76                 & 22                      
-	\end{tabular}
-		\caption{Lernortnutzung}
-\end{table}
-
-Hauptsächlich wurde dabei angegeben, dass die Lernorte für die Bearbeitung von Abgaben genutzt werden. Am wenigsten werden die Lernorte für Abschlussarbeiten verwendet. Im Feld "'Sonstiges"' wurde noch aufgeführt, dass die Lernorte auch für Berufstätigkeiten genutzt werden.
-
-
+Die Galerie zählte vorher 22 Besucher, jetzt gaben 60 Befragte an, sie zu nutzen.
 \begin{figure}[htp]
-	Unsere Daten geben auch eine ungefähre Vorstellung davon, wie viel Zeit die Befragten in den Lernorten der TU verbringen.
+	Die Daten geben auch eine ungefähre Vorstellung davon, wie viel Zeit die Befragten in den Lernorten der TU verbringen.
 	In Abbildung 2 werden mithilfe von Boxplots die aktuellen geschätzten wöchentlichen Zeiten mit denen des letzten Semesters verglichen. \\
 	\vspace{-1.5cm}
 	\hspace{-0.8cm}
@@ -187,12 +175,10 @@ Hauptsächlich wurde dabei angegeben, dass die Lernorte für die Bearbeitung von
 	Zudem ist der obere Boxplot etwas breiter (IQA = 11) als der untere (IQA = 9).
 	Auch sind bei den vorherigen Werten mehr Außenpunkte zu erkennen.
 	Die mediane Lernzeit hat sich von 10 auf 7 Stunden pro Woche verringert und die Streuung hat abgenommen.\\
-	
 	In Abbildung 3 ist der Zusammenhang zwischen der Nutzung der Sebrath-Bibliothek  und der Bewertung des Ersatzes in Form eines Mosaikplots dargestellt. Die x-Achse gibt an, ob die Sebrath-Bibliothek genutzt wurde, die y-Achse, ob der Ersatz als ausreichend empfunden wurde. 
 	\end{figure}
-	\begin{figure}
-	
-	\vspace{0.07cm}
+		\vspace{-5cm}
+	\begin{figure}[h]
 	 \begin{center}
 	{\centering \input{Mosaic.tex}} \end{center}
 	\vspace{-1.5cm}
@@ -201,7 +187,7 @@ Hauptsächlich wurde dabei angegeben, dass die Lernorte für die Bearbeitung von
 
 
 \newpage
-Insgesamt gaben nur 26,79\% der Befragten an, dass der Ersatz ausreichend sei. Die blaue Fläche nimmt einen großen Teil ein und zeigt die Personen, die den Ersatz als nicht ausreichend bewerten. Personen, die die Sebrath-Bibliothek nutzen, bewerten den Ersatz eher als ausreichend (62.5\%) als Personen, die die Bibliothek nicht nutzen (20.83\%).
+Insgesamt gaben nur 26,79\% der Befragten an, dass der Ersatz ausreichend sei. Die blaue Fläche zeigt die Personen, die den Ersatz als nicht ausreichend bewerten. Personen, die die Sebrath-Bibliothek nutzen, bewerten den Ersatz eher als ausreichend (62.5\%) als Personen, die die Bibliothek nicht nutzen (20.83\%).
 
 \subsection{Wichtigkeit und Umsetzung der Aspekte}
 Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche Aspekte den Befragten wichtig sind. Dies ist in der folgenden Tabelle dargestellt:
@@ -215,7 +201,7 @@ Für die Beurteilung der Gesamtzufriedenheit ist zunächst von Interesse, welche
 	\caption{Wichtigkeit der Lernorte}
 	\vspace{0.28cm}
 \end{figure}
-   Über 50\% der Befragten erachten die Aspekte “Erreichbarkeit“, “Öffnungszeiten“, “Platzgarantie“ und “Stromversorgung“ als sehr wichtig. Im Gegensatz dazu wird der “Zugang zu Computern“ von 38,97\% der Befragten als sehr unwichtig eingestuft. “ Neutral bewertet werden die Aspekte “Erreichbarkeit“ und “Pausenräume.”
+   Dabei steht "'n"' für die Anzahl erhaltener Antworten. Über 50\% der Befragten erachten die Aspekte “Erreichbarkeit“, “Öffnungszeiten“, “Platzgarantie“ und “Stromversorgung“ als sehr wichtig. Im Gegensatz dazu wird der “Zugang zu Computern“ von 38,97\% der Befragten als sehr unwichtig eingestuft. “ Neutral bewertet werden die Aspekte “Erreichbarkeit“ und “Pausenräume.”
 Weitere wichtige Aspekte, die unter “Sonstiges” genannt wurden, waren “Zugang zu Getränke- und Snackautomaten”, “Internetzugang” und “Wohlfühlfaktor”.
 
 
@@ -245,7 +231,7 @@ Im Vergleich zeigt die Mittelwertdifferenz, dass sich die Bewertung aller Aspekt
 Zusätzlich wird die Veränderung des Medians der Bewertung vorher und jetzt angegeben. Vereinzelt zeigen diese eine Differenz von 1 auf.
 
 
-
+\newpage
 
 \subsection{Gesamtzufriedenheit und Score}
 
@@ -312,10 +298,10 @@ Diese Differenz wird hier in Abhängigkeit von der durchschnittlichen Fahrzeit d
 
 \newpage
 \section{Diskussion}
-Die Ergebnisse deuten alle darauf hin, dass sich die Lernortsituation seit dem Wintersemester  23/24 verschlechtert hat. Dafür sprechen zum Beispiel die Ergebnisse aus Abschnitt 4.2. In Tabelle zwei konnte gesehen werden, dass alle Aspekte im arithmetischen Mittel aktuell schlechter bewertet wurden als zuvor. Dabei ist sehr auffällig, dass kein einziger Aspekt besser oder identisch bewertet wurde.\\
-Die schlechte öffentliche Anbindung und die erhöhte Entfernung der Sebrath-Bibliothek zum Campus-Nord bzw. Süd könnten die Hauptgründe für die größte Verschlechterung im Aspekt Erreichbarkeit sein. Die Öffnungszeiten der SB sind deutlich kürzer als die der UB, was eine mögliche Erklärung für die höhere Unzufriedenheit im Aspekt "Öffnungszeiten" darstellt.
+Die isse deuten alle darauf hin, dass sich die Lernortsituation seit dem Wintersemester  23/24 verschlechtert hat. Dafür sprechen zum Beispiel die Ergebnisse aus Abschnitt 4.2. In Tabelle zwei konnte gesehen werden, dass alle Aspekte im arithmetischen Mittel aktuell schlechter bewertet wurden als zuvor. Dabei ist sehr auffällig, dass kein einziger Aspekt besser oder identisch bewertet wurde.\\
+Die schlechte öffentliche Anbindung und die erhöhte Entfernung der Sebrath-Bibliothek zum Campus-Nord bzw. Süd könnten die Hauptgründe für die größte Verschlechterung im Aspekt Erreichbarkeit sein. Die Öffnungszeiten der SB sind deutlich kürzer als die der UB, was eine mögliche Erklärung für die höhere Unzufriedenheit im Aspekt "'Öffnungszeiten"' darstellt.
 Auch die Platzgarantie ist stark betroffen, da die Sebrath-Bibliothek deutlich weniger Plätze bietet als die UB. 
-Prozentual gesehen gehören die drei genannten Aspekte auch zu denen, die in Abbildung 4 am wichtigsten erscheinen. Da die wichtigsten Aspekte am schlechtesten bewertet wurden, wird eine niedrigere Gesamtzufriedenheit erwartet.\\
+Prozentual gesehen gehören die drei genannten Aspekte auch zu denen, die in Abbildung 4 am wichtigsten erscheinen. In Bezug auf die erste Forschungsfrage ist nun klar, dass den Befragten vor allem die Aspekte "'Platzgarantie"', "'Erreichbarkeit"' und "'Öffnungszeiten"', aber auch "'Stromversorgung"', am wichtigsten sind und diese gleichzeitig die größte Verschlechterung aufweisen. Daher kann für die zweite Forschungsfrage erwartet werden, dass die Grundzufriedenheit gesunken ist.
 Auch der Score, der die Zufriedenheit erfassen soll, zeigt eine negative Tendenz. Wie in Abbildung 5 gesehen werden kann, ist diese basierend auf dem Score gesunken.
 Das bedeutet, dass die Umsetzung der Aspekte, vor allem der Wichtigen, schlechter geworden ist.
 Zum Beispiel gibt es in den erweiterten Lernorten, unter anderem der Galerie, deutlich weniger Steckdosen und Ruhebereiche. Auch gibt es dort keinen Zugang zu Computern.
@@ -323,14 +309,14 @@ Insgesamt sind vor allem die UB-Nutzer unzufriedener. Dies ist wieder auf den We
 Abb. 6 zeigt womöglich, dass Studierende, die eine sehr lange Fahrzeit zum Campus angaben, weniger betroffen sind. Studierende, die länger zur Uni brauchen, greifen wahrscheinlich auch oft auf andere Lernorte in ihrer Nähe zurück. \\
 Zudem wurde bei dem aktuellen Score eine hohe Streuung beobachtet (vgl. 4.3). Dies könnte auf den Zeitpunkt der Umfrage zurückzuführen sein. Da das Semester erst begonnen hatte, waren einigen Studierenden die neuen Lernorte eventuell noch unbekannt. Eine konkrete Einschätzung könnte daher schwierig gewesen sein, da sie mit der aktuellen Situation noch unvertraut waren. Diese Unsicherheit könnte auch die hohe Streuung erklären.\\
 Im Mosaikplot (Abb. 3) wird deutlich, dass Nutzer der Sebrath-Bibliothek den Ersatz anteilsmäßig besser bewerten. Jedoch ist auch erkennbar, dass unter den Befragten ein nur sehr geringer Anteil, nämlich 11,6\%, diese überhaupt besuchen.\\
-Allgemein scheint es so, dass die neu geschaffenen Alternativen kaum genutzt werden und eine generelle Unzufriedenheit mit diesen besteht. Gründe dafür könnten laut unseren Ergebnissen sein, dass nicht genügend auf die neuen Lernorte aufmerksam gemacht wird, dass sie nicht erreichbar genug sind und auch dass eine schlechtere Platzgarantie besteht.\\
-Die Universitätsbibliothek hingegen hatte auf dem Campus Nord eine zentrale Lage, da sie in direkter Nähe vom Mensagebäude, sowie den Bus- und S-Bahn-Haltestellen und auch der H-Bahn war.\\
+Allgemein scheint es so, dass die neu geschaffenen Alternativen kaum genutzt werden und eine generelle Unzufriedenheit mit diesen besteht. Gründe dafür könnten laut den Ergebnissen sein, dass nicht genügend auf die neuen Lernorte aufmerksam gemacht wird, dass sie nicht erreichbar genug sind und auch dass eine schlechtere Platzgarantie besteht.\\
+Die Universitätsbibliothek hingegen hatte auf dem Campus Nord eine zentrale Lage, da sie in direkter Nähe vom Mensagebäude, sowie den Bus- und S-Bahn-Haltestellen und auch der H-Bahn war. \\
 Dies ist für die Sebrath-Bibliothek und den CLS nicht der Fall. Die Galerie ist zwar auch zentral, aber durch die begrenzten Plätze und den unzureichenden Steckdosen eingeschränkt.\\
 Zudem werden Orte wie die Galerie evtl. nicht direkt mit einem Lernort assoziiert, da sie auch als gastronomische Einrichtung fungieren.
 Andererseits zeigt Abb. 1, dass die Besucherzahl der Galerie stark gestiegen ist.
 Für einige scheint dieser Lernort also auch eine positive Ausweichmöglichkeit zu sein.
 Der Mosaikplot in Abb. 3 zeigt auch, dass die wenigen Nutzer der SB generell zufriedener mit dem Ersatz sind. Abgesehen von dem vermeintlichen Hauptproblem der Sebrath-Bibliothek, der Erreichbarkeit, scheint sie also zufriedenstellend zu sein.\\
-In Bezug auf unsere Forschungsfragen kann also abschließend festgestellt werden, dass die Veränderungen zum Zeitpunkt der Erhebung nicht ausreichend sind, und die allgemeine Zufriedenheit mit den neu geschaffenen Lernmöglichkeiten nicht ausreichend ist.
+In Bezug auf die Forschungsfrage, wie die Studierenden die aktuelle Lernorsituation einschätzen, kann also abschließend Folgendes gesagt werden. Die Alternativen zum Zeitpunkt der Erhebung scheinen nicht ausreichend zu sein, und die allgemeine Zufriedenheit bezüglich der Lernorte ist gesunken.
 Es scheint, dass das negative Meinungsbild auch bei den Verantwortlichen der TU Dortmund angekommen ist, da diese in der Zwischenzeit einen weiteren Lernort in der Innenstadt geplant und eröffnet haben.\\
 
 
@@ -342,19 +328,16 @@ Abschließend wird das Projekt noch einmal kritisch reflektiert. \\
 Zunächst wurden bei der Erhebung Unstimmigkeiten mit den Items ersichtlich.
 Bei der Aufzählung der Lernorte in Frage 3 waren die Abkürzungen, wie z.B. "'CLS"', für die Befragten teilweise unbekannt. Auch hätte das dritte Item als Antwortmöglichkeit “Fakultätsferne Räumlichkeiten“ abdecken müssen. \\
 Es wurde im Feedback-Bereich angemerkt, dass der Aspekt “Barrierefreiheit” für viele schwierig zu beurteilen war, da sie selbst nicht davon betroffen sind. Auch war die Bedeutung des Aspektes “Sicherheit” nicht direkt für alle ersichtlich. Alternativ hätte eine Erklärung hinzugefügt werden können.
-In der Analyse konnten die Lernzeiten kaum interpretiert und gedeutet werden, da die verbrachte Zeit an den Lernorten stark von den geplanten ECTS-Punkten und deren Modulen abhängt. Daher gibt es keinen Sinn, diese vorher und aktuell zu vergleichen, da diese stark variieren können. Es wäre hier sinnvoller, die Anzahl der Module oder ECTS-Punkte zu erfassen.\\
-Die Akquieszenz, also die Ja-Sage-Tendenz, könnte auch einen Einfluss bei der dichotomen Frage 10 bezüglich der Ersatzbewertung gehabt haben. Zukünftig könnte sich eine andere Antwortskala eignen. Des Weiteren hat der Filter seinen Zweck nicht erfüllt, da die Frage auch von Personen beantwortet wurde, die die Zentralbibliothek nicht genutzt haben.\\
-Seit der Schließung der Universitätsbibliothek am 07.08.2023 ist möglicherweise noch nicht genug Zeit vergangen, als dass sich alle Studierenden bereits ein umfassendes und reflektiertes Urteil über die Nutzung alternativer Lernorte und -Situationen bilden konnten. 
-Daran anschließend wurden im Januar 2024 weitere Lernräumlichkeiten eröffnet dessen Benutzung, auf Grund der erst sehr späten Bereitstellung, zeitlich nicht in unsere Erhebung miteinbezogen werden konnten. \\
+In der Analyse konnten die Lernzeiten kaum interpretiert und gedeutet werden, da die verbrachte Zeit an den Lernorten stark von den geplanten ECTS-Punkten und deren Modulen abhängt. Daher ergibt es keinen Sinn, diese vorher und aktuell zu vergleichen, da diese stark variieren können. Es wäre hier sinnvoller, die Anzahl der Module oder ECTS-Punkte zu erfassen.\\
+Die Akquieszenz, also die Ja-Sage-Tendenz, könnte auch einen Einfluss bei der dichotomen Frage 10 bezüglich der Ersatzbewertung gehabt haben. Zukünftig könnte sich eine andere Antwortskala eignen. Des Weiteren hat der Filter seinen Zweck nicht erfüllt, da die Frage auch von Personen beantwortet wurde, die die Zentralbibliothek nicht genutzt haben. Den Filter hätte man mit einem Hinweis klarer verdeutlichen können.\\
+Seit der Schließung der Universitätsbibliothek am 07.08.2023 ist möglicherweise noch nicht genügend Zeit vergangen, dass sich alle Studierenden bereits ein umfassendes und reflektiertes Urteil über die Nutzung alternativer Lernorte und -situationen bilden konnten. \\
+Daran anschließend wurden im Januar 2024 weitere Lernräumlichkeiten eröffnet dessen Benutzung, auf Grund der erst sehr späten Bereitstellung, zeitlich nicht in die Erhebung miteinbezogen werden konnten. \\
 Allgemein werden die Lernorte später im Semester, insbesondere nahe der Klausurenphase, deutlich mehr benutzt. Dies hat außerdem einen massiven Einfluss auf die Platzgarantie sowie die Ruhe, wodurch ein anderes Meinungsbild entstehen könnte.\\
 Daher wäre es spannend, die weitere Entwicklung, vor allem während der Klausurenphase, zu beobachten und zu erheben, um einen sinnvollen Vergleich zu schaffen.\\
 Die Lernortsituation ist im Verlauf eines Semesters und auch darüber hinaus ständig im Wandel, weshalb mehrere Erhebungszeiträume eine generelle Entwicklung besser erfassen könnten. Gleichzeitig war das Projekt durch den Kontext des Seminars “Erhebungstechniken” zeitlich eingeschränkt und eine spätere Erhebung war nicht möglich.\\
 Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen zum Fragebogen und seiner Erhebung. Die Wichtigkeit und auch das persönliche Interesse der Thematik kamen auch hier stark zum Ausdruck. Die weitere Evaluation der Lernortentwicklung ist immens wichtig und von großer Bedeutung und muss auch in Zukunft genau beobachtet werden.
 
 
-\newpage
-\section{Literaturverzeichnis}
-\printbibliography
 \newpage
 \section{Appendix}
 \subsection{Fragebogen}
@@ -399,6 +382,14 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 	\input{EO.tex}
 	\caption{Verteilung der Erhebungsorte}
 \end{figure}
+\subsection*{Nutzungsgründe der Lernorte}
+\begin{table}[h]
+	\begin{tabular}{c|ccccccc}
+		& Zeitüberbrückung & Abgaben & Vor-/Nachbereitung & Gruppenarbeit & Klausuren & Abschlussarbeiten \\ \hline
+		Anzahl & 57            & 101             & 74                          & 83                     & 76                 & 22                      
+	\end{tabular}
+	\caption{Lernortnutzung}
+\end{table}
 \newpage
 \subsection*{Verteilung der Fakultäten}
 \begin{table}[h]
@@ -448,10 +439,14 @@ Abschließend gab es im Feedback Bereich jedoch sehr viele positive Äußerungen
 
 \newpage
 \subsection*{Wechsel der Lernortnutzung}
-\vspace{-2cm}
+\vspace{-4cm}
 \begin{figure}[h]
-	\includepdf[pages=1, offset=0.2cm 3cm] {sankey.pdf}
+	\includepdf[pages=1, offset=0.2cm 4.3cm, scale=0.91] {sankey.pdf}
 \end{figure}
+\vspace{19.5cm} % Vertikalen Abstand entfernen
+\begin{minipage}{\textwidth}
+	\captionof{figure}{Sankey Diagramm zum Wechsel der Lernortnutzung}
+\end{minipage}
 \end{document}
 
 

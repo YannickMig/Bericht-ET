@@ -30,7 +30,6 @@ nrow(data) # also nur noch 138 verwertbare
 #barplot(table(data$`Ersatzbew. (10)`))
 #data$`Ersatzbew. (10)` <- factor(data$`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein"))
 #barplot(table(data$`Ersatzbew. (10)`))
-
 mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Ja", "Nein")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
            data = data, ylab = "Ersatz ausreichend", xlab= "Bibliothek benutzt",
@@ -525,7 +524,7 @@ mosaicplot(~ factor(`UB(V)`, levels = c(1,0), labels = c("Genutzt", "Nicht genut
 text(c(-1.28,0.8), labels = c("10"), col = "white", cex = 1.2)
 mosaicplot(~ factor(`SB(J)`, levels = c(1,0), labels = c("Genutzt", "Nicht genutzt")) +
              factor(`Ersatzbew. (10)`, levels = c(1,0), labels = c("Ja", "Nein")),
-           data = data, ylab = "Ersatz ausreichend", xlab= "Nutzung der Sebrath-Bibliothek",
+           data = data, ylab = "Ersatzbewertung ausreichend", xlab= "Nutzung der Sebrath-Bibliothek",
            col = c("springgreen3", "royalblue2"), main = "Bewertung im Kontext der Sebrath Bibliothek")
 text(c(0.5, 1.5), c(0.5, 1.5), labels = c("10", "20"), col = "white", cex = 1.2)
 mtext(expression(bold("Bewertung im Kontext der Sebrath Bibliothek")), side = 3, line = -2.5, outer = TRUE)
