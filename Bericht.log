@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  31 JAN 2024 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  31 JAN 2024 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,332 +925,92 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count332
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count333
-\c@listtotal=\count334
-\c@listcount=\count335
-\c@liststart=\count336
-\c@liststop=\count337
-\c@citecount=\count338
-\c@citetotal=\count339
-\c@multicitecount=\count340
-\c@multicitetotal=\count341
-\c@instcount=\count342
-\c@maxnames=\count343
-\c@minnames=\count344
-\c@maxitems=\count345
-\c@minitems=\count346
-\c@citecounter=\count347
-\c@maxcitecounter=\count348
-\c@savedcitecounter=\count349
-\c@uniquelist=\count350
-\c@uniquename=\count351
-\c@refsection=\count352
-\c@refsegment=\count353
-\c@maxextratitle=\count354
-\c@maxextratitleyear=\count355
-\c@maxextraname=\count356
-\c@maxextradate=\count357
-\c@maxextraalpha=\count358
-\c@abbrvpenalty=\count359
-\c@highnamepenalty=\count360
-\c@lownamepenalty=\count361
-\c@maxparens=\count362
-\c@parenlevel=\count363
-\blx@tempcnta=\count364
-\blx@tempcntb=\count365
-\blx@tempcntc=\count366
-\c@blx@maxsection=\count367
-\blx@maxsegment@0=\count368
-\blx@notetype=\count369
-\blx@parenlevel@text=\count370
-\blx@parenlevel@foot=\count371
-\blx@sectionciteorder@0=\count372
-\blx@sectionciteorderinternal@0=\count373
-\blx@entrysetcounter=\count374
-\blx@biblioinstance=\count375
-\labelnumberwidth=\skip72
-\labelalphawidth=\skip73
-\biblabelsep=\skip74
-\bibitemsep=\skip75
-\bibnamesep=\skip76
-\bibinitsep=\skip77
-\bibparsep=\skip78
-\bibhang=\skip79
-\blx@bcfin=\read4
-\blx@bcfout=\write4
-\blx@langwohyphens=\language80
-\c@mincomprange=\count376
-\c@maxcomprange=\count377
-\c@mincompwidth=\count378
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count379
-\c@savedafterword=\count380
-\c@annotator=\count381
-\c@savedannotator=\count382
-\c@author=\count383
-\c@savedauthor=\count384
-\c@bookauthor=\count385
-\c@savedbookauthor=\count386
-\c@commentator=\count387
-\c@savedcommentator=\count388
-\c@editor=\count389
-\c@savededitor=\count390
-\c@editora=\count391
-\c@savededitora=\count392
-\c@editorb=\count393
-\c@savededitorb=\count394
-\c@editorc=\count395
-\c@savededitorc=\count396
-\c@foreword=\count397
-\c@savedforeword=\count398
-\c@holder=\count399
-\c@savedholder=\count400
-\c@introduction=\count401
-\c@savedintroduction=\count402
-\c@namea=\count403
-\c@savednamea=\count404
-\c@nameb=\count405
-\c@savednameb=\count406
-\c@namec=\count407
-\c@savednamec=\count408
-\c@translator=\count409
-\c@savedtranslator=\count410
-\c@shortauthor=\count411
-\c@savedshortauthor=\count412
-\c@shorteditor=\count413
-\c@savedshorteditor=\count414
-\c@labelname=\count415
-\c@savedlabelname=\count416
-\c@institution=\count417
-\c@savedinstitution=\count418
-\c@lista=\count419
-\c@savedlista=\count420
-\c@listb=\count421
-\c@savedlistb=\count422
-\c@listc=\count423
-\c@savedlistc=\count424
-\c@listd=\count425
-\c@savedlistd=\count426
-\c@liste=\count427
-\c@savedliste=\count428
-\c@listf=\count429
-\c@savedlistf=\count430
-\c@location=\count431
-\c@savedlocation=\count432
-\c@organization=\count433
-\c@savedorganization=\count434
-\c@origlocation=\count435
-\c@savedoriglocation=\count436
-\c@origpublisher=\count437
-\c@savedorigpublisher=\count438
-\c@publisher=\count439
-\c@savedpublisher=\count440
-\c@language=\count441
-\c@savedlanguage=\count442
-\c@origlanguage=\count443
-\c@savedoriglanguage=\count444
-\c@pageref=\count445
-\c@savedpageref=\count446
-\shorthandwidth=\skip80
-\shortjournalwidth=\skip81
-\shortserieswidth=\skip82
-\shorttitlewidth=\skip83
-\shortauthorwidth=\skip84
-\shorteditorwidth=\skip85
-\locallabelnumberwidth=\skip86
-\locallabelalphawidth=\skip87
-\localshorthandwidth=\skip88
-\localshortjournalwidth=\skip89
-\localshortserieswidth=\skip90
-\localshorttitlewidth=\skip91
-\localshortauthorwidth=\skip92
-\localshorteditorwidth=\skip93
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count447
-\c@textcitetotal=\count448
-\c@textcitemaxnames=\count449
-\c@biburlbigbreakpenalty=\count450
-\c@biburlbreakpenalty=\count451
-\c@biburlnumpenalty=\count452
-\c@biburlucpenalty=\count453
-\c@biburllcpenalty=\count454
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count455
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
-x
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
-bx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count456
-\c@bbx:relatedtotal=\count457
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cb
-x
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-11-09 L3 programming layer (loader) 
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count458
-\l__pdf_internal_box=\box70
-))
-Package biblatex Info: ... and expl3
-(biblatex)             2023-11-09 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip94
-\RaggedLeftLeftskip=\skip95
-\RaggedRightLeftskip=\skip96
-\CenteringRightskip=\skip97
-\RaggedLeftRightskip=\skip98
-\RaggedRightRightskip=\skip99
-\CenteringParfillskip=\skip100
-\RaggedLeftParfillskip=\skip101
-\RaggedRightParfillskip=\skip102
-\JustifyingParfillskip=\skip103
-\CenteringParindent=\skip104
-\RaggedLeftParindent=\skip105
-\RaggedRightParindent=\skip106
-\JustifyingParindent=\skip107
+\CenteringLeftskip=\skip72
+\RaggedLeftLeftskip=\skip73
+\RaggedRightLeftskip=\skip74
+\CenteringRightskip=\skip75
+\RaggedLeftRightskip=\skip76
+\RaggedRightRightskip=\skip77
+\CenteringParfillskip=\skip78
+\RaggedLeftParfillskip=\skip79
+\RaggedRightParfillskip=\skip80
+\JustifyingParfillskip=\skip81
+\CenteringParindent=\skip82
+\RaggedLeftParindent=\skip83
+\RaggedRightParindent=\skip84
+\JustifyingParindent=\skip85
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 
-(Bericht.aux)
+(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count332
+\l__pdf_internal_box=\box70
+) (Bericht.aux)
 \openout1 = `Bericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 31.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-33.
+31.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-33.
+31.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-33.
+31.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 31.
 
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count459
+\scratchcounter=\count333
 \scratchdimen=\dimen310
 \scratchbox=\box71
-\nofMPsegments=\count460
-\nofMParguments=\count461
+\nofMPsegments=\count334
+\nofMParguments=\count335
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count462
+\MPscratchCnt=\count336
 \MPscratchDim=\dimen311
-\MPnumerator=\count463
-\makeMPintoPDFobject=\count464
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
 \everyMPtoPDFconversion=\toks47
 )
 (C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1280,11 +1040,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (Bericht.out) (Bericht.out)
-\@outlinefile=\write5
-\openout5 = `Bericht.out'.
+\@outlinefile=\write4
+\openout4 = `Bericht.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1321,35 +1081,7 @@ Package hyperref Info: Link coloring OFF on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
-x
-File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(C:\Users\Jacqu\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-))
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Bericht.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Bericht.bbl' found.
- (Bericht.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
- [1
+[1
 
 {C:/Users/Jacqu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Jacq
 u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
@@ -1357,7 +1089,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 \newpage \null\thispagestyle{empty}\newpage
+l.67 \newpage \null\thispagestyle{empty}\newpage
                                                  [2] (Bericht.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  6.
@@ -1378,23 +1110,23 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 6.
 )
-\tf@toc=\write6
-\openout6 = `Bericht.toc'.
+\tf@toc=\write5
+\openout5 = `Bericht.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \newpage
+l.69 \newpage
              \null\thispagestyle{empty}\newpage [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \newpage\null\thispagestyle{empty}\newpage
+l.69 \newpage\null\thispagestyle{empty}\newpage
                                                 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
 
  []
 
@@ -1403,57 +1135,57 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 \newpage
+l.79 \newpage
              \null\thispagestyle{empty}\newpage [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.81 \newpage\null\thispagestyle{empty}\newpage
+l.79 \newpage\null\thispagestyle{empty}\newpage
                                                 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 88--95
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--129
+Underfull \hbox (badness 10000) in paragraph at lines 104--127
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 133--138
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 147--152
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
 
  []
 
 (Lernorte.tex) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 (Frage2.tex)
-Overfull \hbox (4.59319pt too wide) in paragraph at lines 177--183
+Overfull \hbox (4.59319pt too wide) in paragraph at lines 175--181
     []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
+Underfull \hbox (badness 10000) in paragraph at lines 184--190
 
  []
 
@@ -1461,193 +1193,208 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--192
 <Tabellen.pdf, id=123, 845.1575pt x 597.23125pt>
 File: Tabellen.pdf Graphic file (type pdf)
 <use Tabellen.pdf>
-Package pdftex.def Info: Tabellen.pdf  used on input line 212.
+Package pdftex.def Info: Tabellen.pdf  used on input line 210.
 (pdftex.def)             Requested size: 609.26208pt x -21.43208pt.
 
-Overfull \hbox (71.80157pt too wide) in paragraph at lines 211--214
+Overfull \hbox (71.80157pt too wide) in paragraph at lines 209--212
 []|  []
  []
 
 [6 <./Tabellen.pdf>] (ScoreVN.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--258
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 782--256
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--288
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
 
  []
 
 [7] (ScoreDiff.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--297
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 358--295
  [][] 
  []
 
-[8] [9] [10] [11]
-<Final2.pdf, id=171, 598.15468pt x 846.04092pt>
+[8] [9] [10] [11] [12] (Bericht.bbl) [13]
+<Final2.pdf, id=191, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 356.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 356.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-<Final2.pdf, id=174, page=1, 598.15468pt x 846.04092pt>
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 356.
-(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 356.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 356.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 356.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 1>
-Package pdftex.def Info: Final2.pdf , page1 used on input line 360.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
- [12 <./Final2.pdf>]
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 361.
+Package pdftex.def Info: Final2.pdf  used on input line 363.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf>
-Package pdftex.def Info: Final2.pdf  used on input line 361.
+Package pdftex.def Info: Final2.pdf  used on input line 363.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
-<Final2.pdf, id=233, page=2, 598.15468pt x 846.04092pt>
+<Final2.pdf, id=194, page=1, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 361.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 363.
 (pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 361.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 363.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 361.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 363.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 361.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 363.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 2>
-Package pdftex.def Info: Final2.pdf , page2 used on input line 361.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
- [13 <./Final2.pdf>]
-<Final2.pdf, id=247, page=3, 598.15468pt x 846.04092pt>
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 361.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 361.
-(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-File: Final2.pdf Graphic file (type pdf)
-<use Final2.pdf, page 3>
-Package pdftex.def Info: Final2.pdf , page3 used on input line 361.
+<use Final2.pdf, page 1>
+Package pdftex.def Info: Final2.pdf , page1 used on input line 367.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
  [14 <./Final2.pdf>]
-<Final2.pdf, id=253, page=4, 598.15468pt x 846.04092pt>
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf>
+Package pdftex.def Info: Final2.pdf  used on input line 368.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf>
+Package pdftex.def Info: Final2.pdf  used on input line 368.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+<Final2.pdf, id=255, page=2, 598.15468pt x 846.04092pt>
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 368.
+(pdftex.def)             Requested size: 598.15321pt x 846.03885pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 2>
+Package pdftex.def Info: Final2.pdf , page2 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+ [15 <./Final2.pdf>]
+<Final2.pdf, id=268, page=3, 598.15468pt x 846.04092pt>
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+File: Final2.pdf Graphic file (type pdf)
+<use Final2.pdf, page 3>
+Package pdftex.def Info: Final2.pdf , page3 used on input line 368.
+(pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
+ [16 <./Final2.pdf>]
+<Final2.pdf, id=274, page=4, 598.15468pt x 846.04092pt>
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 361.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 368.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 361.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 368.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
 File: Final2.pdf Graphic file (type pdf)
 <use Final2.pdf, page 4>
-Package pdftex.def Info: Final2.pdf , page4 used on input line 361.
+Package pdftex.def Info: Final2.pdf , page4 used on input line 368.
 (pdftex.def)             Requested size: 597.4778pt x 845.08354pt.
-
-[15 <./Final2.pdf>] (EO.tex)
-Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--386
+ [17 <./Final2.pdf>] (EO.tex)
+Overfull \hbox (22.19313pt too wide) in paragraph at lines 89--393
  [][] 
  []
 
 
-Overfull \hbox (45.19566pt too wide) in paragraph at lines 390--394
+Overfull \hbox (45.19566pt too wide) in paragraph at lines 397--401
 [][] 
  []
 
-[16] [17]
-<sankey.pdf, id=277, 597.19106pt x 845.07718pt>
+[18] [19]
+<sankey.pdf, id=301, 597.19106pt x 845.07718pt>
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf>
-Package pdftex.def Info: sankey.pdf  used on input line 447.
+Package pdftex.def Info: sankey.pdf  used on input line 454.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf>
-Package pdftex.def Info: sankey.pdf  used on input line 447.
+Package pdftex.def Info: sankey.pdf  used on input line 454.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<sankey.pdf, id=280, page=1, 597.19106pt x 845.07718pt>
+<sankey.pdf, id=304, page=1, 597.19106pt x 845.07718pt>
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 447.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 454.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 447.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 454.
 (pdftex.def)             Requested size: 543.44472pt x 769.02144pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 447.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 454.
 (pdftex.def)             Requested size: 543.44472pt x 769.02144pt.
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 447.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 454.
 (pdftex.def)             Requested size: 543.44472pt x 769.02144pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 451.
+(caption)                particular \caption on input line 458.
 See the caption package documentation for explanation.
 
 File: sankey.pdf Graphic file (type pdf)
 <use sankey.pdf, page 1>
-Package pdftex.def Info: sankey.pdf , page1 used on input line 453.
+Package pdftex.def Info: sankey.pdf , page1 used on input line 460.
 (pdftex.def)             Requested size: 543.44472pt x 769.02144pt.
-[18 <./sankey.pdf>] (Bericht.aux)
+[20 <./sankey.pdf>] (Bericht.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-Package rerunfilecheck Info: File `Bericht.out' has not changed.
-(rerunfilecheck)             Checksum: 472FFEF4E0CB07A6F1EE53794DCD80FE;1712.
-Package logreq Info: Writing requests to 'Bericht.run.xml'.
-\openout1 = `Bericht.run.xml'.
 
+
+Package rerunfilecheck Warning: File `Bericht.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Bericht.out':
+(rerunfilecheck)             Before: 472FFEF4E0CB07A6F1EE53794DCD80FE;1712
+(rerunfilecheck)             After:  D7E140772E6CAA35C98E42E4F2B219C7;1856.
  ) 
 Here is how much of TeX's memory you used:
- 32979 strings out of 474587
- 624007 string characters out of 5745702
+ 26053 strings out of 474587
+ 483221 string characters out of 5745702
  1969558 words of memory out of 5000000
- 54565 multiletter control sequences out of 15000+600000
+ 47682 multiletter control sequences out of 15000+600000
  614800 words of font info for 86 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 84i,18n,87p,1077b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/four
-ier-mex.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fo
-urier/fourier-ms.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/
-adobe/utopia/putb8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/adobe/utopia/putr8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/
-type1/adobe/utopia/putri8a.pfb>
-Output written on Bericht.pdf (24 pages, 591705 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 84i,18n,87p,1077b,792s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.7.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.7.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.7.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+<C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourie
+r-mex.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/four
+ier/fourier-ms.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/ad
+obe/utopia/putb8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1
+/adobe/utopia/putr8a.pfb><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/adobe/utopia/putri8a.pfb>
+Output written on Bericht.pdf (26 pages, 595914 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
